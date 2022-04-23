@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<section class="small-banner" style="background: linear-gradient(to right, rgba(54, 60, 79, .75) , rgba(54, 60, 79, .75)), url({{ .Site.Data.platform.banner.image }}); background-size: cover; background-position: center center;">
+  <div class="small-banner-container  wrapper grid island">
+    <div class="unit xs-1 s-1 m-1 l-1-2">
+      <h1 class="yotta push-0">{{ .Site.Data.platform.banner.text }}</h1>
+    </div>
+  </div>
+</section>
+
+{{ range .Site.Data.platform.platformSections }}
+<section class="home-panels {{ .sectionColour }}">
+  <div class="grid grid-middle wrapper">
+    <div class="unit xs-1 s-1 m-1-2 {{ .pushClass }}">
+      <img class="img-flex" src="{{ .image }}" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 {{ .pullClass }} island">
+      <h2>{{ .mainSectionHeader }}</h2>
+      <p>{{ .mainSectionText }}</p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+<section class="wrapper">
+  <div class="grid grid-stretch pad-t-2 pad-b-2">
+    {{ range .Site.Data.platform.platformSections }}
+    <div class="island unit-content-distribute unit xs-1 s-1-2 m-1-2 l-1-2 ">
+      <div class="platform-card">
+        <div class="embed embed-16by9 push">
+          <img class="img-flex embed-item platform-img" src="{{ .image }}" alt="">
+        </div>
+        <div class="gutter">
+          <h2 class="">{{ .mainSectionHeader }}</h2>
+          <p class="content-shrink">{{ .mainSectionText }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+
+<section class="wrapper pad-t-2 pad-b-2">
+  {{ range .Site.Data.platform.platformSections }}
+  <div class="grid grid-middle push gutter">
+    <div class="unit xs-1 m-2-3 {{ .pushClass }} gutter">
+      <img class="img-flex" src="{{ .image }}" alt="">
+    </div>
+    <div class="unit xs-1 m-1-3 pad-t pad-b {{ .pullClass }} gutter">
+      <h3>{{ .mainSectionHeader }}</h3>
+      <p>{{ .mainSectionText }}</p>
+    </div>
+  </div>
+  {{ end }}
+</section>
+{{- partial "getintouch.html" . -}}
+
+{{ end }}

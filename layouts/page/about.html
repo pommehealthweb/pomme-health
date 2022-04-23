@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<section id="about-history" class="pad-t-2 pad-b-2 max-length gutter">
+  {{ .Site.Data.about.history.text | markdownify }}
+</section>
+
+<section id=about-mission-values class="pad-b-2 pad-t-2 mission-section">
+  <div class="max-length text-center">
+    <h2 class="push-1-4 m-v-h3">{{ .Site.Data.about.mission.missionHeader }}</h2>
+    <p class="push-0">{{ .Site.Data.about.mission.missionText }}</p>
+  </div>
+</section>
+
+<section id="about-leadership" class="pad-b-2 pad-t-2">
+  <h2 class="text-center">Leadership</h2>
+  <div class="grid grid-top wrapper">
+    {{ range .Site.Data.about.leadership }}
+      <!-- <div class="unit xs-1 m-1-3">
+        <div class="embed embed-4by3">
+          <img class="img-flex embed-item" src="{# {{ .personImage }} #}" alt="">
+        </div>
+      </div> -->
+      <div class="unit xs-1 s-1 m-1-2  island">
+        <h3 class="kilo push-1-2">{{ .personName }}</h3>
+        <p>{{ .leaderText }}</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+<section id="about-news" class="pad-b-2 pad-t-2">
+  <h2 class="text-center push-2">In The News</h2>
+  {{ range first 3 .Site.Data.about.inTheNews }}
+  <div class="wrapper gutter">
+    <div class="grid grid-middle news-card push">
+      <div class="unit xs-1 m-1-3">
+        <div class="embed embed-4by3">
+          <img class="img-flex embed-item" src="{{ .newsImage }}" alt="">
+        </div>
+      </div>
+      <div class="unit xs-1 m-2-3 island">
+        <h4>{{ .newsTitle }}</h4>
+        <p class="push-0">{{ .newsDescription }}</p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+{{ end }}

@@ -1,0 +1,35 @@
+banner:
+  image: /images/managers-banner.jpg
+  text: Health Care Managers
+managersSections:
+  - image: /images/intuitive-language-2.jpg
+    text: |-
+      * Common intuitive language based on **functional scoring**.
+      * Easily understood by all.
+      * Minimal to no training required.
+  - image: /images/senior-hands.jpg
+    text: >-
+      * Immediate data collection and analysis for short-term care action plans.
+
+      * Better decision making when entire team collaborates with relevant
+      information.
+
+      * **Accountability measures** for follow up and re-evaluation.
+
+      * Continuous quality improvement with **metrics** of functional outcome.
+  - image: /images/full-bio.jpg
+    text: >-
+      * Medium-range data collection and analysis for measurement and management
+      for optimal **patient outcomes**.
+
+      * Assists with decisions to continue, maintain, change or discontinue
+      health care Interventions.
+  - image: /images/tracking.jpg
+    text: >-
+      * Long-range big data analytics to determine best **resource allocation**
+      for patient groups
+
+      * Ability to determine resources for care and treatment for long-term
+      maintenance and rehabilitation.
+
+      * Improve funding allocations for care providers and assisted living.

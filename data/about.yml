@@ -1,0 +1,64 @@
+history:
+  text: >-
+    ## History
+
+
+    When Dr. Cheryl Netterfield worked as a Reg Force physician for the Canadian
+    Armed Forces, she was concerned that collaborative health care to soldiers
+    with complex issues was not optimal. She discovered that valuable
+    information was not communicated well between all of the health care
+    providers. During interdisciplinary case conferences, it was evident that
+    the sharing of information for the care of the patient was not efficient.
+
+
+    POMMe-Health, a customizable communication platform, was created to address
+    the issue of inefficient provider and patient communication and
+    collaboration.
+
+
+    POMMe stands for “Patient Outcome Management and Measurement”. The app
+    provides an adjunct tool for health care providers to work better
+    collaboratively and thereby, enhance patient outcomes.
+
+
+    POMMe-Health, Inc is headquartered in Ottawa, Ontario.
+mission:
+  missionHeader: Vision & Mission Statements
+  missionText: >-
+    POMMe-Health’s Vision: One common language for health care providers;
+    starting now and forever.                                                
+    POMMe-Health's Mission: To become the best care management platform for
+    truly collaborative health care. To allow patients to enhance their
+    functionality and live their best quality of life.  
+leadership:
+  - leaderText: >-
+      Cheryl is a Family Physician with over 24 years in the Canadian Armed
+      Forces and special interests in occupational, disability and sports
+      medicine. She is passionate about making collaborative care more efficient
+      and improving functionality and quality of life for complex patients.
+    personName: 'Dr. Cheryl Netterfield, MD, CCFP, FCFP, Dip Sports Medicine'
+inTheNews:
+  - newsDescription: >-
+      An amazing group of 10 fantastic clinicians and non-clinicians were
+      interviewed and recorded as they tested the POMMe-Health APP! A great
+      evening and lots of great feedback. Thanks to all!
+    newsImage: /images/user-testing.png
+    newsTitle: 'Nov 20th, 2018: User Testing with the Algonquin UX Design Team '
+  - newsDescription: >-
+      POMMe-Health Design teams from Algonquin College School of Media and
+      Design at RE/ACTION Showcase Dec 2018! Congrats to Melany
+      Pelletier-Valliant, Krystyna MacLeod and Matthieu Beaudry for all of their
+      hard work and a job well done. Many thanks to Jed Looker and Algonquin
+      College for their partnership and support.
+    newsImage: /images/uploads/algonquin-winners.jpg
+    newsTitle: >-
+      Dec 4th, 2018: POMMe-Health Branding and Website Design Project takes 3rd
+      Prize Overall at Algonquin RE/ACTION Showcase !
+  - newsDescription: >-
+      Congratulations to the UX Design team from Algonquin College School of
+      Media and Design for their commitment with the design of the user
+      interface Mockups for the POMMe-Health app. Thanks so much to Daniel Katz,
+      Valeriia Zaporozhets, Erica Agana, Ayaka Matsubara and Nicholas Teng. Many
+      wonderful hours spent with this team solving a complex heath care issue.
+    newsImage: /images/uploads/prototype-team.jpeg
+    newsTitle: 'Dec 4th, 2018: Algonquin UX Design Team'

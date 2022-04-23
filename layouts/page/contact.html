@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<section class="wrapper pad-t-2 pad-b-2">
+  <div class="grid grid-middle text-center">
+    <div class="unit xs-1 s-1 m-1-2">
+      <h2>Contact Us</h2>
+      <p class="push-0"><strong>Email</strong></p>
+      <p>{{ .Site.Data.contact.contactInformation.contactEmail }}</p>
+      <p class="push-0"><strong>Phone</strong></p>
+      <p>{{ .Site.Data.contact.contactInformation.contactTel }}</p>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2">
+      <h2>Technical Support</h2>
+      <p class="push-0"><strong>Email</strong></p>
+      <p>{{ .Site.Data.contact.contactInformation.contactEmail }}</p>
+      <p class="push-0"><strong>Phone</strong></p>
+      <p>{{ .Site.Data.contact.contactInformation.contactTel }}</p>
+    </div>
+  </div>
+</section>
+<section id="contact-investors" class="investors-section pad-t-2 pad-b-2">
+  <div class="max-length gutter">
+    {{ .Site.Data.contact.investors.text | markdownify }}
+    <p class="push-0"><strong>Email</strong> {{ .Site.Data.contact.contactInformation.contactEmail }}</p>
+    <p><strong>Phone</strong> {{ .Site.Data.contact.contactInformation.contactTel }}</p>
+  </div>
+</section>
+<section id="contact-careers" class="wrapper pad-t-2 pad-b-2">
+  <div class="grid grid-middle">
+    <div class="unit xs-1 s-1 m-1-2">
+      <div class="embed embed-16by9">
+        <img class="img-flex embed-item" src="{{ .Site.Data.contact.careers.careersImage }}" alt="">
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 island">
+      <h2>Careers</h2>
+      <p>{{ .Site.Data.contact.careers.careersText}}</p>
+      <p class="push-0"><strong>Email</strong> {{ .Site.Data.contact.contactInformation.contactEmail }}</p>
+      <p><strong>Phone</strong> {{ .Site.Data.contact.contactInformation.contactTel }}</p>
+    </div>
+  </div>
+</section>
+{{- partial "getintouch.html" . -}}
+
+{{ end }}

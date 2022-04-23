@@ -1,0 +1,34 @@
+banner:
+  image: /images/platform-banner.jpg
+  text: POMMe Platform
+platformSections:
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Common Language based on functionality.
+    mainSectionText: Easily understood by all. Minimal to no training required.
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Efficient
+    mainSectionText: >-
+      Rapid input and live-time collation of information for efficient
+      identification of patient issues needing attention. Most inputs taking
+      less than 5 minutes per patient.
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Clinical care management simplified.
+    mainSectionText: >-
+      Links to supplementary tools and content at appropriate points in the
+      clinical workflow (e.g. diagnostic tools, patient education materials).
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Develop coordinated care Action Plan
+    mainSectionText: >-
+      Support your decision with objective information and data. Accountability
+      measures for follow up.
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Track Changes
+    mainSectionText: >-
+      Intervene sooner when subtle changes are recognized in patient
+      functioning.
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Continuous quality improvement with metrics of functional outcome.
+    mainSectionText: >-
+      Measurement and management for optimal patient outcomes. Assists with
+      decisions to continue, maintain, change or discontinue health care
+      interventions.

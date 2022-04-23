@@ -1,0 +1,68 @@
+heroBanner:
+  buttonText: Learn More
+  image: /images/uploads/hero-banner.jpg
+  text: >-
+    POMMe-Health delivers a customized communication tool that uses one common
+    language for healthcare. It eliminates language bias and subjectivity by
+    using standardized scores for functioning.       
+  title: Measurably improving a patient's quality of life.
+sectionTitle: >-
+  Health care decisions driven by information from both the clinician and the
+  patient.
+homeCards:
+  - icon: /images/uploads/barriers-icon.svg
+    text: >-
+      End health care silos with one common language for care providers and
+      patients. Communication through clarity.
+    title: Break Down Barriers
+  - icon: /images/uploads/common-language-icon.svg
+    text: >-
+      Enabling collaboration, clarity, belonging. The right patient care at the
+      right time for the right reason.
+    title: Informed Decisions
+  - icon: /images/uploads/driven-by-passion-icon.svg
+    text: >-
+      The power to collect better data. The power to make better decisions. The
+      power to make a difference.
+    title: Driven by Data
+homeSections:
+  - buttonLink: /comprehensive
+    image: /images/uploads/comprehensive.jpg
+    leadingText: Comprehensive
+    mainSectionHeader: 'The complete physical, emotional and social view of a patient'
+    mainSectionText: >-
+      We will define a patient by the person they are and the environment they
+      live in, not by their diagnosis. POMMe allows both health care providers
+      and the patient to input information about the complete patient.
+    sectionButton: Learn More
+  - buttonLink: /customizable
+    image: /images/uploads/fog-foggy-forest-158607.jpg
+    leadingText: Customizable
+    mainSectionHeader: A platform that is as unique as the patient in their environment.
+    mainSectionText: >-
+      Information gathering that is adaptable. Features dependant on the
+      characteristics of the patient. Health care providers and the patient can
+      control what is measured.
+    sectionButton: Learn More
+  - buttonLink: /collaborative
+    image: /images/uploads/collaborative.jpg
+    leadingText: Collaborative
+    mainSectionHeader: 'Sharing ideas, not just collating information'
+    mainSectionText: >-
+      True collaboration is the exchange of information and ideas between team
+      members to develop the best plan for the delivery of healthcare.
+      Collaboration involves trust and transparency; hallmarks of the highest
+      level of integrated teamwork.
+    sectionButton: Learn More
+  - buttonLink: /continuous
+    image: /images/uploads/continuous.jpeg
+    leadingText: Continuous
+    mainSectionHeader: Tracking progress over time
+    mainSectionText: >-
+      The ability to measure patient’s outcomes over time allows everyone to
+      continuously monitor and improve the delivery of care.
+    sectionButton: Learn More
+getInTouch:
+  button: Send
+  text: Enter your email to get in touch with us.
+  title: Get in Touch!

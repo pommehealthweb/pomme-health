@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="small-banner"
+  style="background: linear-gradient(to right, rgba(103, 142, 165, .75), rgba(103, 142, 165, .75)),
+        url({{ .Site.Data.blog.banner.image }});
+        background-size: cover; background-position: center center;">
+  <div class="small-banner-container wrapper grid island">
+    <div class="unit xs-1 s-1 m-1 l-1-2">
+      <h1 class="yotta push-0">{{ .Site.Data.blog.banner.text }}</h1>
+    </div>
+  </div>
+</section>
+
+<section class="max-length pad-t-2 pad-b-2">
+  <h2 class="gutter">Read our latest Blog posts</h2>
+  {{ range .Site.posts }}
+  <div class="island">
+      <a class="blog-card push" href="/{{ .post.url }}">
+        <div  class="island-1-2">
+          <p class="push-0 giga blog-title">{{ .title }}</p>
+          <p class="push-0">{{ .desc }}</p>
+        </div>
+      </a>
+      </div>
+  {{ end }}
+</section>
+
+{{ end }}
