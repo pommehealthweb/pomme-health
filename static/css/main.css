@@ -74,7 +74,7 @@ img {
 .jumbotron-banner p {
   font-weight: 600;
   line-height: 1.8;
-  text-align: justify;
+  text-align: left;
   color: #fff;
 }
 
