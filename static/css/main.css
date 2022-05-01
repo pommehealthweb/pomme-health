@@ -98,12 +98,20 @@ img {
 }
 
 /* Home Sections */
+section.home-panels .island {
+  min-height: 25em;
+}
+
+.home-page-sections {
+  margin-bottom: 3em;
+  background-color: #F8F8F8;
+}
+
 .home-panels h2 {
   font-weight: 300;
 }
 .home-panels {
-  background-color: #F8F8F8;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 /* Health Care Professionals */
@@ -112,7 +120,8 @@ img {
   /* background-color: var(--color-blue); */
   background: url(../images/hero-banner-test.jpg);
   background-size: cover;
-  background-position: center right; 
+  background-position: center right;
+  margin-bottom: 3em; 
 }
 
 .small-banner h1, .small-banner p {

@@ -10,20 +10,17 @@ sectionTitle: >-
   Health care decisions driven by information from both the clinician and the
   patient.
 homeCards:
-  - icon: /images/uploads/barriers-icon.svg
+  - icon: /images/uploads/accountability.png
     text: >-
-      End health care silos with one common language for care providers and
-      patients. Communication through clarity.
+      Clarifying professional roles and organizational goals. Building a culture of trust.
     title: Break Down Barriers
-  - icon: /images/uploads/common-language-icon.svg
+  - icon: /images/uploads/transparency.png
     text: >-
-      Enabling collaboration, clarity, belonging. The right patient care at the
-      right time for the right reason.
+      Providing open communication. Being aware of all interventions being provided.
     title: Informed Decisions
-  - icon: /images/uploads/driven-by-passion-icon.svg
+  - icon: /images/uploads/due-diligence.png
     text: >-
-      The power to collect better data. The power to make better decisions. The
-      power to make a difference.
+      Delivering the right care at the right time for the right person. Ensuring there are no gaps in care.
     title: Driven by Data
 homeSections:
   - buttonLink: /comprehensive

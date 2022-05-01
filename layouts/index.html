@@ -25,15 +25,10 @@
   </ul>
   </section>
 
+<section class="grid grid-middle wrapper home-panels">
 {{ range .Site.Data.home.homeSections }}
-<section class="home-panels {{ .sectionColour }}">
-  <div class="grid grid-middle wrapper">
-    <div class="unit xs-1 s-1 m-1-2 {{ .pushClass }}">
-      <div class="embed embed-4by3">
-        <img class="img-flex embed-item" src="{{ .image }}" alt="">
-      </div>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 {{ .pullClass }} island">
+  <div class="unit home-page-sections xs-1 s-1 m-1-2 ">
+    <div class="{{ .pullClass }} island">
       <p class="push-1-2 bold">{{ .leadingText }}</p>
       <h2>{{ .mainSectionHeader }}</h2>
       <p>{{ .mainSectionText }}</p>
@@ -42,8 +37,8 @@
       </div>
     </div>
   </div>
-</section>
 {{ end }}
+</section>
 
 <p>{{ .Site.Data.home.testing }}</p>
 {{- partial "getintouch.html" . -}}
