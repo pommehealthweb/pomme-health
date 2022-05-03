@@ -22,6 +22,14 @@ img {
   display: block;
 }
 
+div.home-description p {
+  margin-bottom: 0;
+}
+
+div.home-description p.home-description-last {
+  margin-bottom: 1.25em;
+}
+
 /* Buttons */
 /*Main ghost buttons from home page*/
 .main-btn {
