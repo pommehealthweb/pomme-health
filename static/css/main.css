@@ -22,6 +22,20 @@ img {
   display: block;
 }
 
+.margin-top {
+  margin-top: 2em;
+}
+
+section.home-cards {
+  padding-top: 4.75em;
+}
+
+section.home-cards > p {
+  font-size:  1.1em;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
 div.home-description p {
   margin-bottom: 0;
 }

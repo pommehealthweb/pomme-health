@@ -2,26 +2,34 @@ heroBanner:
   buttonText: Learn More
   image: /images/uploads/hero-banner.jpg
   text1: >-
-    POMMe-Health delivers a customizable, patient-centric communication platform that rapidlymeasures and tracks functional outcomes.
+    POMMe-Health delivers a customizable, patient-centric communication platform that rapidly measures and tracks functional outcomes.
   text2: >-
     Relevant performance metrics and healthcare KPIs measurably improve a patient’s quality of life.
   text3: >-
     Big data analytics provide predictive information to implement proactive interventions.
   title: Value-based healthcare for everyone.
-sectionTitle: >-
-  Health care decisions driven by information from both the clinician and the patient. A collaborative platform that empowers disconnected teams to unite with clarity, context, and confidence.
+sectionTitle1: >-
+  Healthcare decisions driven by information from both the clinician and the patient.
+sectionTitle2: >-
+  A collaborative platform that empowers disconnected teams to unite with clarity, context, and confidence.
 homeCards:
   - icon: /images/uploads/accountability.png
-    text: >-
-      Clarifying professional roles and organizational goals. Building a culture of trust.
+    text1: >-
+      Clarifying professional roles and organizational goals.
+    text2: >- 
+      Building a culture of trust.
     title: Break Down Barriers
   - icon: /images/uploads/transparency.png
-    text: >-
-      Providing open communication. Being aware of all interventions being provided.
+    text1: >-
+      Providing open communication.
+    text2: >- 
+      Being aware of all interventions provided.
     title: Informed Decisions
   - icon: /images/uploads/due-diligence.png
-    text: >-
-      Delivering the right care at the right time for the right person. Ensuring there are no gaps in care.
+    text1: >-
+      Delivering the right care at the right time for the right person.
+    text2: >- 
+      Ensuring there are no gaps in care.
     title: Driven by Data
 homeSections:
   - buttonLink: /comprehensive
@@ -30,7 +38,7 @@ homeSections:
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
       We will define a patient by the person they are and the environment they
-      live in, not by their diagnosis. POMMe allows both health care providers
+      live in, not by their diagnosis. POMMe allows both healthcare providers
       and the patient to input information about the complete patient.
     sectionButton: Learn More
   - buttonLink: /customizable
@@ -39,7 +47,7 @@ homeSections:
     mainSectionHeader: A platform that is as unique as the patient in their environment.
     mainSectionText: >-
       Information gathering that is adaptable. Features dependant on the
-      characteristics of the patient. Health care providers and the patient can
+      characteristics of the patient. Healthcare providers and the patient can
       control what is measured.
     sectionButton: Learn More
   - buttonLink: /collaborative
