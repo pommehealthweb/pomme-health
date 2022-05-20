@@ -1,0 +1,158 @@
+/* General */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+h1 {
+    margin: 0 0 0.25em;
+}
+
+h2 {
+    margin:  0 0 0.35em;
+}
+
+p {
+    margin: 0 0 0.85em;
+}
+
+.margin-bottom {
+  margin-bottom: 0.75em;
+}
+
+.padding-left {
+  padding-left:  1.75em;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: 1px solid #33BCAF;
+    z-index: 500;
+}
+
+/* Homepage */
+
+h1.home-title {
+  margin-bottom: 0.45em; 
+}
+
+/* Tabs */
+
+div.tab-wrapper {
+  max-width: 60em;
+  margin: 0 auto 3em;
+}
+
+div.tab-wrapper-contents {
+  max-width: 100%;
+}
+
+ul#tab-links > li::before {
+    content: "";
+    float: left;
+    width: 1.25em;
+}
+
+body {
+  justify-content: center;
+}
+
+.tabs {
+  min-width: 20rem;
+  display: flex;
+}
+
+.tabs .align-top {
+  vertical-align: top;
+  align-items: flex-start;
+}
+
+.tabs h3 {
+  margin: 0 0 0.75em;
+}
+
+.tabs > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.tabs > ul li {
+  display: block;
+  text-align: center;
+}
+.tabs > ul li a {
+  display: block;
+  text-decoration: none;
+  /*background: #fca500;*/
+  background-color: #33BCAF;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  width: 100%;
+  border: 1px solid #33BCAF;
+  transition: all 0.2s ease-in-out;
+}
+.tabs > ul li a.active {
+  background: #fff;
+  color: #5d8fa8;
+  z-index: 500;
+}
+
+a:focus {
+    outline: none;
+    border: 1px solid #33BCAF;
+}
+
+.tabs > ul li a:hover:not(.active) {
+  color: #fff;
+}
+.tabs section {
+  background: #fff;
+  padding: 0 1.75em;
+  display: none;
+}
+.tabs section.active {
+  display: block;
+  width: 100%;
+}
+
+/* Media Items */
+
+h2, h3 {
+  color: #5d8fa8;
+}
+
+section.alternating-media:nth-child(odd) > div div.media-image-left {
+  display: none;
+}
+
+section.alternating-media:nth-child(even) > div div.media-image-right {
+  display: none;
+}
+
+div.media-items {
+  background-color: #F8F8F8;
+}
+
+div.news-card:hover {
+  color: #fff;
+  background-color: #92bcd0;
+  transition: 0.15s ease-in;
+}
+
+/* Blog */
+
+section.blog-section {
+  margin: 1.75em auto;
+}
+
+
+

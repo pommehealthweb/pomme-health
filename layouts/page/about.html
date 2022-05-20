@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <section id="about-history" class="pad-t-2 pad-b-2 max-length gutter">
+  <h2 class="margin-bottom">History</h2>
   {{ .Site.Data.about.history.text | markdownify }}
 </section>
 
@@ -15,11 +16,6 @@
   <h2 class="text-center">Leadership</h2>
   <div class="grid grid-top wrapper">
     {{ range .Site.Data.about.leadership }}
-      <!-- <div class="unit xs-1 m-1-3">
-        <div class="embed embed-4by3">
-          <img class="img-flex embed-item" src="{# {{ .personImage }} #}" alt="">
-        </div>
-      </div> -->
       <div class="unit xs-1 s-1 m-1-2  island">
         <h3 class="kilo push-1-2">{{ .personName }}</h3>
         <p>{{ .leaderText }}</p>

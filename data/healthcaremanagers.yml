@@ -3,12 +3,14 @@ banner:
   text: Healthcare Managers
 managersSections:
   - image: /images/intuitive-language-2.jpg
-    text: |-
+    mainSectionHeader: Easily Understood by Everyone
+    mainSectionText: |-
       * Common intuitive language based on **functional scoring**.
       * Easily understood by all.
       * Minimal to no training required.
   - image: /images/senior-hands.jpg
-    text: >-
+    mainSectionHeader: Better Decision Making
+    mainSectionText: >-
       * Immediate data collection and analysis for short-term care action plans.
 
       * Better decision making when entire team collaborates with relevant
@@ -18,14 +20,16 @@ managersSections:
 
       * Continuous quality improvement with **metrics** of functional outcome.
   - image: /images/full-bio.jpg
-    text: >-
+    mainSectionHeader: Data Collection and Analysis
+    mainSectionText: >-
       * Medium-range data collection and analysis for measurement and management
       for optimal **patient outcomes**.
 
       * Assists with decisions to continue, maintain, change or discontinue
       health care Interventions.
   - image: /images/tracking.jpg
-    text: >-
+    mainSectionHeader: Care and Treatment
+    mainSectionText: >-
       * Long-range big data analytics to determine best **resource allocation**
       for patient groups
 

@@ -1,6 +1,7 @@
 ---
-layout: blog
-title: 'Dec 2nd, 2018: Welcome to POMMe-Health!'
+title: "Dec 2nd, 2018: Welcome to POMMe-Health!"
+date: 2018-04-22T23:36:10-04:00
+draft: false
 desc: Our first blog post.
 ---
 ## Welcome to POMMe-Health!

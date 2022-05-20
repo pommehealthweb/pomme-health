@@ -147,86 +147,64 @@ thead th {
   width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-dl,
-dd,
-figure,
-blockquote,
-details,
-hr,
-fieldset,
-pre,
-table,
-caption {
-  margin: 0 0 1.3rem;
-}
-
 .tenamega {
-  font-size: 2.0408rem;
-  line-height: 2.925rem;
+  font-size: 3.6532rem;
+  line-height: 4.875rem;
 }
 
 .tenakilo {
-  font-size: 1.9127rem;
-  line-height: 2.6rem;
+  font-size: 3.2473rem;
+  line-height: 4.5rem;
 }
 
 .tena {
-  font-size: 1.7926rem;
-  line-height: 2.6rem;
+  font-size: 2.8865rem;
+  line-height: 4.125rem;
 }
 
 .nina {
-  font-size: 1.68rem;
-  line-height: 2.275rem;
+  font-size: 2.5rem;
+  line-height: 3.375rem;
 }
 
 .yotta {
-  font-size: 1.5745rem;
-  line-height: 2.275rem;
+  font-size: 2.25rem;
+  line-height: 2.65rem;
 }
 
 .zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
+  font-size: 2.0273rem;
+  line-height: 3rem;
 }
 
 h1,
 .exa {
-  font-size: 1.383rem;
-  line-height: 1.95rem;
+  font-size: 1.802rem;
+  line-height: 2rem;
 }
 
 h2,
 .peta {
-  font-size: 1.2962rem;
-  line-height: 1.95rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 h3,
 .tera {
-  font-size: 1.2148rem;
-  line-height: 1.625rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 h4,
 .giga {
-  font-size: 1.1385rem;
-  line-height: 1.625rem;
+  font-size: 1.rem;
+  line-height: 1.25rem;
 }
 
 h5,
 .mega {
-  font-size: 1.067rem;
-  line-height: 1.625rem;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
 }
 
 h6,
@@ -234,28 +212,33 @@ h6,
 input,
 textarea {
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 1.25rem;
 }
 
 small,
 .milli {
-  font-size: .9372rem;
-  line-height: 1.3rem;
+  font-size: .8889rem;
+  line-height: 1.25rem;
 }
 
 .micro {
-  font-size: .8784rem;
-  line-height: 1.3rem;
+  font-size: .7901rem;
+  line-height: 1.25rem;
 }
 
 .nano {
-  font-size: .8232rem;
-  line-height: 1.3rem;
+  font-size: .7023rem;
+  line-height: 1.125rem;
 }
 
 .pico {
-  font-size: .7715rem;
-  line-height: 1.3rem;
+  font-size: .6243rem;
+  line-height: 1.125rem;
+}
+
+p {
+  font-size: 1.0125rem;
+  line-height: 1.5em;
 }
 
 ul {
@@ -303,7 +286,7 @@ select {
 
 .push-half,
 .push-1-2 {
-  margin-bottom: .65rem;
+  margin-bottom: 0.35rem;
 }
 
 .push-quarter,
@@ -402,7 +385,7 @@ select {
 }
 
 .island {
-  padding: 1.3rem;
+  padding: 0.25em 1.5em 1.085rem;
 }
 
 .island-double,
@@ -541,86 +524,64 @@ legend {
     line-height: 1.4;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.4rem;
-  }
-
   .tenamega {
     font-size: 3.6532rem;
-    line-height: 4.9rem;
+    line-height: 4.875rem;
   }
 
   .tenakilo {
     font-size: 3.2473rem;
-    line-height: 4.55rem;
+    line-height: 4.5rem;
   }
 
   .tena {
     font-size: 2.8865rem;
-    line-height: 3.85rem;
+    line-height: 4.125rem;
   }
 
   .nina {
-    font-size: 2.5658rem;
-    line-height: 3.5rem;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
   }
 
   .yotta {
-    font-size: 2.2807rem;
-    line-height: 3.15rem;
+    font-size: 2.25rem;
+    line-height: 2.65rem;
   }
 
   .zetta {
     font-size: 2.0273rem;
-    line-height: 2.8rem;
+    line-height: 3rem;
   }
 
   h1,
   .exa {
     font-size: 1.802rem;
-    line-height: 2.45rem;
+    line-height: 2rem;
   }
 
   h2,
   .peta {
-    font-size: 1.6018rem;
-    line-height: 2.1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   h3,
   .tera {
-    font-size: 1.4238rem;
-    line-height: 2.1rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   h4,
   .giga {
-    font-size: 1.2656rem;
-    line-height: 1.75rem;
+    font-size: 1.rem;
+    line-height: 1.25rem;
   }
 
   h5,
   .mega {
     font-size: 1.125rem;
-    line-height: 1.75rem;
+    line-height: 1.25rem;
   }
 
   h6,
@@ -628,28 +589,28 @@ legend {
   input,
   textarea {
     font-size: 1rem;
-    line-height: 1.4rem;
+    line-height: 1.25rem;
   }
 
   small,
   .milli {
     font-size: .8889rem;
-    line-height: 1.4rem;
+    line-height: 1.25rem;
   }
 
   .micro {
     font-size: .7901rem;
-    line-height: 1.4rem;
+    line-height: 1.25rem;
   }
 
   .nano {
     font-size: .7023rem;
-    line-height: 1.05rem;
+    line-height: 1.125rem;
   }
 
   .pico {
     font-size: .6243rem;
-    line-height: 1.05rem;
+    line-height: 1.125rem;
   }
 
   ul,
@@ -816,7 +777,7 @@ legend {
   }
 
   .island {
-    padding: 1.4rem;
+    padding: 0.25em 1.5em 1.085rem;
   }
 
   .island-double,
@@ -957,28 +918,6 @@ legend {
     line-height: 1.5;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.5rem;
-  }
-
   .tenamega {
     font-size: 3.6532rem;
     line-height: 4.875rem;
@@ -995,13 +934,13 @@ legend {
   }
 
   .nina {
-    font-size: 2.5658rem;
+    font-size: 2.5rem;
     line-height: 3.375rem;
   }
 
   .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
+    font-size: 2.25rem;
+    line-height: 2.45rem;
   }
 
   .zetta {
@@ -1012,31 +951,31 @@ legend {
   h1,
   .exa {
     font-size: 1.802rem;
-    line-height: 2.625rem;
+    line-height: 1.85rem;
   }
 
   h2,
   .peta {
-    font-size: 1.6018rem;
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   h3,
   .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   h4,
   .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
+    font-size: 1.rem;
+    line-height: 1.25rem;
   }
 
   h5,
   .mega {
     font-size: 1.125rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   h6,
@@ -1044,18 +983,18 @@ legend {
   input,
   textarea {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   small,
   .milli {
     font-size: .8889rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   .micro {
     font-size: .7901rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   .nano {
@@ -1066,6 +1005,10 @@ legend {
   .pico {
     font-size: .6243rem;
     line-height: 1.125rem;
+  }
+
+  .jumbotron-banner p {
+    font-size: 1.015rem;
   }
 
   ul,
@@ -1232,7 +1175,7 @@ legend {
   }
 
   .island {
-    padding: 1.5rem;
+    padding: 0.25em 1.5em 1.085rem;
   }
 
   .island-double,
@@ -1373,28 +1316,6 @@ legend {
     line-height: 1.5;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.5rem;
-  }
-
   .tenamega {
     font-size: 3.6532rem;
     line-height: 4.875rem;
@@ -1411,13 +1332,13 @@ legend {
   }
 
   .nina {
-    font-size: 2.5658rem;
+    font-size: 2.5rem;
     line-height: 3.375rem;
   }
 
   .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
+    font-size: 2.25rem;
+    line-height: 2.35rem;
   }
 
   .zetta {
@@ -1428,31 +1349,31 @@ legend {
   h1,
   .exa {
     font-size: 1.802rem;
-    line-height: 2.625rem;
+    line-height: 1.85rem;
   }
 
   h2,
   .peta {
-    font-size: 1.6018rem;
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   h3,
   .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   h4,
   .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
+    font-size: 1.rem;
+    line-height: 1.25rem;
   }
 
   h5,
   .mega {
     font-size: 1.125rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   h6,
@@ -1460,18 +1381,18 @@ legend {
   input,
   textarea {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   small,
   .milli {
     font-size: .8889rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   .micro {
     font-size: .7901rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   .nano {
@@ -1482,6 +1403,10 @@ legend {
   .pico {
     font-size: .6243rem;
     line-height: 1.125rem;
+  }
+
+  .jumbotron-banner p {
+    font-size: 1.0125rem;
   }
 
   ul,
@@ -1549,7 +1474,7 @@ legend {
 
   .push-half,
   .push-1-2 {
-    margin-bottom: .75rem;
+    margin-bottom: 0.5rem;
   }
 
   .push-quarter,
@@ -1648,7 +1573,7 @@ legend {
   }
 
   .island {
-    padding: 1.5rem;
+    padding: 0.25em 1.5em 1.085rem;
   }
 
   .island-double,
@@ -1678,7 +1603,7 @@ legend {
   input:not([type="checkbox"]),
   input:not([type="radio"]),
   textarea {
-    padding: .1875rem;
+    padding: .275rem;
   }
 
   .gutter {

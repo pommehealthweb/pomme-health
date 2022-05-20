@@ -3,17 +3,20 @@ banner:
   text: Healthcare Professionals
 professionalsSections:
   - image: /images/intuitive-language-2.jpg
-    text: |-
+    mainSectionHeader: Common Intuitive Language
+    mainSectionText: |-
       * Common **intuitive** language based on functional scoring.
       * **Easily** understood by all.
       * Minimal to no training required.
   - image: /images/book-words.jpg
-    text: |-
+    mainSectionHeader: Sharing Decision Making
+    mainSectionText: |-
       * Eliminate working in **blind** spots.
       * Stop working in silos.
       * Enabling shared decision-making allowing **true** collaboration.
   - image: /images/full-bio.jpg
-    text: >-
+    mainSectionHeader: Functional Outcomes
+    mainSectionText: >-
       * **Comprehensive** and full bio-psycho-social model.
 
       * Functionality is not dependant on patient diagnoses.
@@ -21,7 +24,8 @@ professionalsSections:
       * Areas frequently missed in traditional health care team-based models
       such as environmental and social factors.
   - image: /images/senior-hands.jpg
-    text: >-
+    mainSectionHeader: Patient’s Perspectives and Needs
+    mainSectionText: >-
       * Better understanding and appreciation of patient’s perspectives and
       needs.
 

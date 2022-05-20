@@ -3,22 +3,26 @@ banner:
   text: Patients & Family
 patientsSections:
   - image: /images/people-desk.jpg
-    text: |-
+    mainSectionHeader: Be an Active Partner
+    mainSectionText: |-
       * Be an **active partner** in your health care.
       * Take action when concerns arise.
       * **Live-time** entry of functional issues to alert health care providers.
   - image: /images/intuitive-language-2.jpg
-    text: |-
+    mainSectionHeader: Functional Scoring
+    mainSectionText: |-
       * Common intuitive language based on functional scoring.
       * Easily understood by all.
       * Minimal to **no training** required.
   - image: /images/looking-at-ipad.jpg
-    text: |-
+    mainSectionHeader: Informing Your Health Care Team
+    mainSectionText: |-
       * Sharing your ideas and information with your health care team.
       * Staying on the **same page** as all of the providers.
       * Sharing relevant and valuable information necessary for decisions.
   - image: /images/key-in-door.jpg
-    text: |-
+    mainSectionHeader: Safely Protecting Your Information
+    mainSectionText: |-
       * Safety and privacy is paramount.
       * Your information is **safe** and **protected**.
       * Password protected to the highest health care legislated standards.
