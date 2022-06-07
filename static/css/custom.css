@@ -39,6 +39,32 @@ select:focus {
     z-index: 500;
 }
 
+/* Get in Touch */
+
+div.contact-info {
+  margin-top: 2.25em;
+}
+
+div.contact-info h4 {
+  color: #fff;
+  margin: 0;
+}
+
+div.contact-info h4:first-child{
+  color: #fff;
+  margin: 0 0 0.5em;
+}
+
+div.contact-info h4 a {
+  color: #fff;
+  margin: 0.15em 0 0.25em;
+}
+
+div.contact-info h4 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* Homepage */
 
 h1.home-title {
@@ -154,5 +180,54 @@ section.blog-section {
   margin: 1.75em auto;
 }
 
+/* Contact */
+
+div.contact-page-info h5 {
+  margin: 0.5em 0 0.15em;
+}
+
+p.phone-number,
+p.phone-number a {
+  color: black;
+  margin: 0;
+}
+
+p.phone-number a:hover {
+  text-decoration: underline;
+}
+
+.form-spacing,
+.island-eighth, .island-1-8,
+input:not([type="checkbox"]),
+input:not([type="radio"]),
+textarea {
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.request-form {
+  margin-bottom: 2em;
+}
+
+/* Footer */
+
+footer {
+  border-top: none;
+}
+
+footer.nav-footer {
+  color: #fff;
+  background-color: #353C51;
+}
+
+footer h3,
+footer a {
+  color: #fff;
+}
+
+footer h3:hover,
+footer a:hover {
+  color: #5d8fa8;
+}
 
 

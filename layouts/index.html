@@ -35,7 +35,7 @@
     <div class="{{ .pullClass }} island">
       <p class="push-1-2 bold">{{ .leadingText }}</p>
       <h2>{{ .mainSectionHeader }}</h2>
-      <p>{{ .mainSectionText }}</p>
+      <p>{{ .mainSectionText | markdownify }}</p>
       <div class="">
         <a class="main-btn ib milli" href="{{ .buttonLink }}">{{ .sectionButton }}</a>
       </div>

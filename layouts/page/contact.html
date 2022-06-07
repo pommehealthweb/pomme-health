@@ -2,30 +2,50 @@
 
 <section class="wrapper pad-t-2 pad-b-2">
   <div class="grid grid-middle text-center">
-    <div class="unit xs-1 s-1 m-1-2">
+    <div class="unit xs-1 s-1 m-1-2 contact-page-info">
       <h2>Contact Us</h2>
-      <p class="push-0"><strong>Email</strong></p>
-      <p>{{ .Site.Data.contact.contactInformation.contactEmail }}</p>
-      <p class="push-0"><strong>Phone</strong></p>
-      <p>{{ .Site.Data.contact.contactInformation.contactTel }}</p>
+      <h5 class="push-0"><strong>Email</strong></h5>
+      <p>{{ .Site.Data.contact.contactInformation.mainEmail }}</p>
+      <h5 class="push-0"><strong>Phone</strong></h5>
+      <p class="phone-number"><a href="tel:+1-833-766-6363">1-833-POMMeMD</a></p>
+      <p class="phone-number"><a href="tel:+1-833-766-6363">1-833-766-6363</a></p>
     </div>
-    <div class="unit xs-1 s-1 m-1-2">
+    <div class="unit xs-1 s-1 m-1-2 contact-page-info">
       <h2>Technical Support</h2>
-      <p class="push-0"><strong>Email</strong></p>
-      <p>{{ .Site.Data.contact.contactInformation.contactEmail }}</p>
-      <p class="push-0"><strong>Phone</strong></p>
-      <p>{{ .Site.Data.contact.contactInformation.contactTel }}</p>
+      <h5 class="push-0"><strong>Email</strong></h5>
+      <p>{{ .Site.Data.contact.contactInformation.supportEmail }}</p>
+      <h5 class="push-0"><strong>Phone</strong></h5>
+      <p class="phone-number"><a href="tel:+1-833-766-6363">1-833-POMMeMD</a></p>
+      <p class="phone-number"><a href="tel:+1-833-766-6363">1-833-766-6363</a></p>
     </div>
   </div>
 </section>
-<section id="contact-investors" class="investors-section pad-t-2 pad-b-2">
+
+<!-- Default form contact -->
+<form action="#!" class="wrapper request-form">
+    <h4>Contact us</h4>
+
+    <!-- Name -->
+    <input type="text" class="form-spacing" id="fullName" placeholder="Full Name">
+
+    <!-- Email -->
+    <input type="email" class="form-spacing" id="email" placeholder="E-mail">
+
+    <!-- Message -->
+    <textarea id="message" class="form-spacing" rows="3" placeholder="Message"></textarea>
+
+    <!-- Send button -->
+    <button type="submit" class="nav-btn">Send</button>
+</form>
+<!-- Default form contact -->
+<!-- {# <section id="contact-investors" class="investors-section pad-t-2 pad-b-2">
   <div class="max-length gutter">
     {{ .Site.Data.contact.investors.text | markdownify }}
     <p class="push-0"><strong>Email</strong> {{ .Site.Data.contact.contactInformation.contactEmail }}</p>
     <p><strong>Phone</strong> {{ .Site.Data.contact.contactInformation.contactTel }}</p>
   </div>
-</section>
-<section id="contact-careers" class="wrapper pad-t-2 pad-b-2">
+</section> -->
+<!-- <section id="contact-careers" class="wrapper pad-t-2 pad-b-2">
   <div class="grid grid-middle">
     <div class="unit xs-1 s-1 m-1-2">
       <div class="embed embed-16by9">
@@ -39,7 +59,7 @@
       <p><strong>Phone</strong> {{ .Site.Data.contact.contactInformation.contactTel }}</p>
     </div>
   </div>
-</section>
+</section> #} -->
 {{- partial "getintouch.html" . -}}
 
 {{ end }}

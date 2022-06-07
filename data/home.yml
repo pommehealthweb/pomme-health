@@ -34,12 +34,12 @@ homeCards:
 homeSections:
   - buttonLink: /comprehensive
     image: /images/uploads/comprehensive.jpg
-    leadingText: Comprehensive
+    leadingText: Comprehensive and Simple
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
-    mainSectionText: >-
+    mainSectionText: |-
       We will define a patient by the person they are and the environment they
-      live in, not by their diagnosis. POMMe allows both healthcare providers
-      and the patient to input information about the complete patient.
+      live in, not by their diagnosis.  
+      POMMe-Health allows both healthcare providers and the patient to input information about the complete patient.
     sectionButton: Learn More
   - buttonLink: /customizable
     image: /images/uploads/fog-foggy-forest-158607.jpg
@@ -62,13 +62,14 @@ homeSections:
     sectionButton: Learn More
   - buttonLink: /continuous
     image: /images/uploads/continuous.jpeg
-    leadingText: Continuous
+    leadingText: Continuous and Proactive
     mainSectionHeader: Tracking progress over time
-    mainSectionText: >-
+    mainSectionText: |-
       The ability to measure patient’s outcomes over time allows everyone to
-      continuously monitor and improve the delivery of care.
+      continuously monitor and improve the delivery of care.  
+      Identifying changes in functioning provides alerts for potential risks ... the team can now be proactive.
     sectionButton: Learn More
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
-  title: Get in Touch!
+  title: We are starting Pilot Projects!
