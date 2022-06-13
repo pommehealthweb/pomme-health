@@ -1,21 +1,21 @@
 {{ define "main" }}
 
-<section id="about-history" class="pad-t-2 pad-b-2 max-length gutter">
+<section id="history" class="pad-t-2 pad-b-2 max-length gutter">
   <h2 class="margin-bottom">History</h2>
-  {{ .Site.Data.about.history.text | markdownify }}
+  {{ .Site.Data.company.history.text | markdownify }}
 </section>
 
-<section id=about-mission-values class="pad-b-2 pad-t-2 mission-section">
+<section id=mission-values class="pad-b-2 pad-t-2 mission-section">
   <div class="max-length text-center">
-    <h2 class="push-1-4 m-v-h3">{{ .Site.Data.about.mission.missionHeader }}</h2>
-    <p class="push-0">{{ .Site.Data.about.mission.missionText }}</p>
+    <h2 class="push-1-4 m-v-h3">{{ .Site.Data.company.mission.missionHeader }}</h2>
+    <p class="push-0">{{ .Site.Data.company.mission.missionText }}</p>
   </div>
 </section>
 
-<section id="about-leadership" class="pad-b-2 pad-t-2">
+<section id="leadership" class="pad-b-2 pad-t-2">
   <h2 class="text-center">Leadership</h2>
   <div class="grid grid-top wrapper">
-    {{ range .Site.Data.about.leadership }}
+    {{ range .Site.Data.company.leadership }}
       <div class="unit xs-1 s-1 m-1-2  island">
         <h3 class="kilo push-1-2">{{ .personName }}</h3>
         <p>{{ .leaderText }}</p>
@@ -24,9 +24,9 @@
   </div>
 </section>
 
-<!-- <section id="about-news" class="pad-b-2 pad-t-2">
+<!-- <section id="company-news" class="pad-b-2 pad-t-2">
   <h2 class="text-center push-2">In The News</h2>
-  {# {{ range first 3 .Site.Data.about.inTheNews }}
+  {# {{ range first 3 .Site.Data.company.inTheNews }}
   <div class="wrapper gutter">
     <div class="grid grid-middle news-card push">
       <div class="unit xs-1 m-1-3">

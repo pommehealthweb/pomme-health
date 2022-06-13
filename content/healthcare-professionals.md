@@ -1,8 +1,8 @@
 ---
-title: "Health Care Professionals"
+title: "Healthcare Professionals"
 date: 2022-04-22T23:35:23-04:00
 type: page
-layout: health-care-professionals
+layout: healthcare-professionals
 ---
 
 # Continuous
