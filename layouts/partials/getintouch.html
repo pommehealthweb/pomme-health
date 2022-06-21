@@ -3,16 +3,16 @@
     <h2>{{ .Site.Data.home.getInTouch.title }}</h2>
     <p>{{ .Site.Data.home.getInTouch.text }}</p>
     <form class="max-length gutter" method="POST" action="https://formspree.io/cnetterfield@icloud.com">
-      <label>Email Address</label>
-      <input class="push text-left" type="email" name="email" placeholder="Your email">
+      <label class="hidden">Email Address</label>
+      <input class="push text-left email-address" type="email" name="email" placeholder="Email Address">
       <button type="submit">Send</button>
     </form>
     <div class="container wrapper grid contact-info">
-      <div class="unit m-1-2">
+      <div class="unit s-1-2">
         <h4>Email</h4>
         <h4>info@pomme-health.com</h4>
       </div>
-      <div class="unit m-1-2">
+      <div class="unit s-1-2">
         <h4>Phone</h4>
         <h4><a href="tel:+1-833-766-6363">1-833-POMMeMD</a></h4>
         <h4><a href="tel:+1-833-766-6363">1-833-766-6363</a></h4>

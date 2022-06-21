@@ -27,6 +27,14 @@ p {
   padding-left:  1.75em;
 }
 
+.width-100 {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
 a:focus,
 [tabindex="0"]:focus,
 details:focus,
@@ -187,12 +195,15 @@ div.contact-page-info h5 {
 }
 
 p.phone-number,
-p.phone-number a {
+p.email,
+p.phone-number a,
+p.email a {
   color: black;
   margin: 0;
 }
 
-p.phone-number a:hover {
+p.phone-number a:hover,
+p.email a:hover {
   text-decoration: underline;
 }
 
@@ -207,6 +218,12 @@ textarea {
 
 .request-form {
   margin-bottom: 2em;
+}
+
+input.email-address {
+  max-width: 25em;
+  text-align: center;
+  margin: 15px auto 22px auto;
 }
 
 /* Footer */

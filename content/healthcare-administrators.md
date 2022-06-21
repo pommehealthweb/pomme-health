@@ -1,8 +1,8 @@
 ---
-title: "Healthcare Administration"
+title: "Healthcare Administrators"
 date: 2022-04-22T23:36:40-04:00
 type: page
-layout: healthcare-administration
+layout: healthcare-administrators
 ---
 
 # Customizable
