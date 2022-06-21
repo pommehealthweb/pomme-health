@@ -27,6 +27,10 @@ p {
   padding-left:  1.75em;
 }
 
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
 .width-100 {
   width: 100%;
 }
@@ -77,6 +81,16 @@ div.contact-info h4 a:hover {
 
 h1.home-title {
   margin-bottom: 0.45em; 
+}
+
+/* Navigation */
+
+.list-group.push-0.nav-list.text-center {
+  margin-top: 0;
+}
+
+.menu {
+  top: 103px; 
 }
 
 /* Tabs */
