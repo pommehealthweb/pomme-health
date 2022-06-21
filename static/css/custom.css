@@ -226,6 +226,15 @@ input.email-address {
   margin: 15px auto 22px auto;
 }
 
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
 /* Footer */
 
 footer {

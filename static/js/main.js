@@ -23,3 +23,26 @@ $(function() {
         $($this.attr('href')).addClass('active');
     });
 });
+
+$(document).ready(function() {
+    $('a#contact-popup').magnificPopup({
+      items: {
+          src: `<form action="#!" id="contact-popup" class="wrapper request-form white-popup">
+                <h4>Contact us</h4>
+
+                <!-- Name -->
+                <input type="text" class="form-spacing" id="fullName" placeholder="Full Name">
+
+                <!-- Email -->
+                <input type="email" class="form-spacing" id="email" placeholder="E-mail">
+
+                <!-- Message -->
+                <textarea id="message" class="form-spacing" rows="3" placeholder="Message"></textarea>
+
+                <!-- Send button -->
+                <button type="submit" class="nav-btn">Send</button>
+                </form>`,
+          type: 'inline'
+      }
+    });
+});
