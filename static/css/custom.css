@@ -234,10 +234,28 @@ textarea {
   margin-bottom: 2em;
 }
 
+form.max-length.gutter {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 25em;
+}
+
+button.contact-btn {
+  display: flex;
+  font-size: 0.75em;
+  align-items: center;
+}
+
+button.contact-btn:hover {
+  color: #fff;
+}
+
 input.email-address {
-  max-width: 25em;
+  display: flex;
+  max-width: 15em;
   text-align: center;
-  margin: 15px auto 22px auto;
+  margin-right: 10px;
 }
 
 .white-popup {
@@ -245,6 +263,7 @@ input.email-address {
   background: #FFF;
   padding: 20px;
   width: auto;
+  z-index: 200;
   max-width: 500px;
   margin: 20px auto;
 }
