@@ -27,24 +27,24 @@ $(function() {
 $(document).ready(function() {
     $('a#contact-popup').magnificPopup({
       items: {
-          src: `<form action="#!" id="contact-popup" class="wrapper request-form white-popup">
-                  <h4>Contact us</h4>
+          src: `<form action="https://formspree.io/f/mjvldwov" method="POST" id="contact-popup" class="wrapper request-form white-popup">
+                    <h4>Contact us</h4>
 
-                  <!-- Name -->
-                  <input type="text" class="form-spacing" id="fullName" placeholder="Full Name">
+                    <!-- Name -->
+                    <input type="text" class="form-spacing" id="fullName" name="fullName" required placeholder="Full Name">
 
-                  <!-- Email -->
-                  <input type="email" class="form-spacing" id="email" placeholder="E-mail">
+                    <!-- Email -->
+                    <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail">
 
-                  <!-- Email -->
-                  <input type="text" class="form-spacing" id="subject" placeholder="Subject">
+                    <!-- Subject -->
+                    <input type="text" class="form-spacing" id="subject" name="subject" placeholder="Subject">
 
-                  <!-- Message -->
-                  <textarea id="message" class="form-spacing" rows="3" placeholder="Message"></textarea>
+                    <!-- Message -->
+                    <textarea id="message" class="form-spacing"  name="message" rows="3" required placeholder="Message"></textarea>
 
-                  <!-- Send button -->
-                  <button type="submit" class="nav-btn">Send</button>
-              </form>`,
+                    <!-- Send button -->
+                    <button type="submit" class="nav-btn">Send</button>
+                </form>`,
           type: 'inline'
       }
     });
