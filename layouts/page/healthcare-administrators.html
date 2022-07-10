@@ -1,14 +1,14 @@
 {{ define "main" }}
 
-<section class="small-banner" style="background: linear-gradient(to right, rgba(54, 60, 79, .75) , rgba(54, 60, 79, .75)), url({{ .Site.Data.healthcareadministration.banner.image }}); background-size: cover; background-position: center center;">
+<section class="small-banner" style="background: linear-gradient(to right, rgba(54, 60, 79, .75) , rgba(54, 60, 79, .75)), url({{ .Site.Data.healthcareadministrators.banner.image }}); background-size: cover; background-position: center center;">
   <div class="small-banner-container wrapper grid">
     <div class="unit xs-1 s-1 m-1 l-1-2">
-      <h1 class="yotta push-0">{{ .Site.Data.healthcareadministration.banner.text }}</h1>
+      <h1 class="yotta push-0">{{ .Site.Data.healthcareadministrators.banner.text }}</h1>
     </div>
   </div>
 </section>
 
-{{ range .Site.Data.healthcareadministration.managersSections }}
+{{ range .Site.Data.healthcareadministrators.managersSections }}
 <section class="{{ .patients.professionalsBackground }} push-2 {{ .sectionPadding }} alternating-media">
   <div class="grid grid-middle wrapper media-items">
     <div class="unit xs-1 s-1 m-2-5 media-image-left wow animate__animated animate__fadeInLeft {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">

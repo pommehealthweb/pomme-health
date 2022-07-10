@@ -39,6 +39,10 @@ p {
   float: left;
 }
 
+.all-caps {
+  text-transform: uppercase;
+}
+
 a:focus,
 [tabindex="0"]:focus,
 details:focus,
@@ -77,6 +81,14 @@ div.contact-info h4 a:hover {
   text-underline-offset: 2px;
 }
 
+li.push-1-2 {
+    margin-bottom: 7px;
+}
+
+h3.milli {
+    margin-bottom: 10px;
+}
+
 /* Homepage */
 
 h1.home-title {
@@ -91,6 +103,18 @@ h1.home-title {
 
 .menu {
   top: 103px; 
+}
+
+a.book-demo {
+  color: #fff;
+  background-color: #50A193;
+  border: none;
+}
+
+a.sign-in {
+  color: #fff;
+  background-color: #5D8FA8;
+  border: none;
 }
 
 /* Tabs */
@@ -204,6 +228,10 @@ section.blog-section {
 
 /* Contact */
 
+section.contact-form {
+  background-color: #fff;
+}
+
 div.contact-page-info h5 {
   margin: 0.5em 0 0.15em;
 }
@@ -235,16 +263,16 @@ textarea {
 }
 
 form.max-length.gutter {
-    display: flex;
     align-items: center;
     margin: 0 auto;
     max-width: 25em;
 }
 
 button.contact-btn {
-  display: flex;
   font-size: 0.75em;
   align-items: center;
+  margin: 0.75em auto;
+  padding: 0.35em 1.75em;
 }
 
 button.contact-btn:hover {
@@ -252,11 +280,11 @@ button.contact-btn:hover {
 }
 
 input.email-address {
-  display: flex;
-  max-width: 14.75em;
+  max-width: 20em;
   text-align: center;
-  margin-right: 10px;
-  font-size: 0.85em;
+  margin: 0 auto;
+  font-size: 0.75em;
+  padding: 0.25em 1.75em;
 }
 
 .white-popup {
@@ -267,6 +295,78 @@ input.email-address {
   z-index: 200;
   max-width: 500px;
   margin: 20px auto;
+}
+
+a.logo-contact {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+h3.request-demo {
+  color: #353C51;
+  font-weight: bold;
+}
+
+.email-us {
+    font-size: 1.0125rem;
+    line-height: 1.5em;
+    margin: 0;
+    color: #353C51;
+}
+
+a.email-us:hover {
+    text-decoration: underline;
+}
+
+p.linked-in-contact {
+  display: block;
+  margin: 0.5em 0;
+}
+
+a:focus {
+  border: none;
+}
+
+div.pop-up-padding {
+  padding: 0 1.75em;
+}
+
+form.request-form {
+  padding:  3em;
+  border: 1px solid #b7b7b9;
+  border-radius: 70px;
+}
+
+/* Media Objects */
+
+.media-object {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  max-width: 20rem;
+  margin: 0 0 1rem 0;
+  float: left;
+}
+.media-object > img.media-image {
+  width: 75px;
+  margin: 0 1rem 0 0;
+}
+.media-object > div.media-body {
+  flex: 1;
+  min-width: inherit;
+}
+
+.media-object > div.media-body ul > li::before {
+    content: "·";
+    margin-left: 0;
+    width: 0.75em;
+    text-align: left;
+}
+
+/* Call to Action */
+
+input.push.text-left.email-address {
+    border-radius: 18px;
 }
 
 /* Footer */

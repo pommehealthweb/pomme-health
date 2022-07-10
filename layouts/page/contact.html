@@ -21,50 +21,35 @@
   </div>
 </section>
 
-<!-- Default form contact -->
-
-<!-- <form action="https://formspree.io/f/mjvldwov" method="POST" id="contact-popup" class="wrapper request-form white-popup mfp-hide"> -->
-    <!-- <h4>Contact us</h4> -->
-
-    <!-- Name -->
-    <!-- <input type="text" class="form-spacing" id="fullName" name="fullName" required placeholder="Full Name"> -->
-
-    <!-- Email -->
-    <!-- <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail"> -->
-
-    <!-- Subject -->
-    <!-- <input type="text" class="form-spacing" id="subject" name="subject" placeholder="Subject"> -->
-
-    <!-- Message -->
-    <!-- <textarea id="message" class="form-spacing"  name="message" rows="3" required placeholder="Message"></textarea> -->
-
-    <!-- Send button -->
-    <!-- <button type="submit" class="nav-btn">Send</button> -->
-<!-- </form> -->
-
-<!-- Default form contact -->
-<!-- {# <section id="contact-investors" class="investors-section pad-t-2 pad-b-2">
-  <div class="max-length gutter">
-    {{ .Site.Data.contact.investors.text | markdownify }}
-    <p class="push-0"><strong>Email</strong> {{ .Site.Data.contact.contactInformation.contactEmail }}</p>
-    <p><strong>Phone</strong> {{ .Site.Data.contact.contactInformation.contactTel }}</p>
+<!-- <section class="wrapper push-2 contact-form">
+  <div class="grid pop-up-padding">
+    <div class="unit s-1 m-1-3">
+      <a class="logo logo-contact" href="/"><img class="img-flex logo" src="/images/pomme-logo.png" alt="POMMe-Health coloured logo"></a>
+      <p>POMMe-Health delivers a customizable,<br>
+      patient-centric, interdisciplinary<br>
+      communication platform that<br>
+      eliminates gaps in healthcare</p>
+      <h3 class="request-demo">Request a Demo Today!</h3>
+      <p class="email-us">Email us:</p>
+      <a class="email-us" href="mailto:info@pomme-health.com">info@pomme-health.com</a>
+      <p class="linked-in-contact"><a target="_blank" href="https://www.linkedin.com/company/pomme-health/">
+        <i class="icon i-32"><img src="/images/linkedin.svg"></i>
+      </a></p>
+    </div>
+    <div class="unit s-1 m-2-3">
+      <form action="https://formspree.io/f/mjvldwov" method="POST" id="contact-popup" class="wrapper request-form white-popup">
+        <h4>Request a Demo</h4>
+        <input type="text" class="form-spacing" id="fullName" name="fullName" required placeholder="Full Name">
+        <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail">
+        <input type="text" class="form-spacing" id="subject" name="subject" placeholder="Subject">
+        <textarea id="message" class="form-spacing"  name="message" rows="3" required placeholder="Message"></textarea>
+        <button type="submit" class="nav-btn">Send</button>
+      </form>
+    </div>
   </div>
 </section> -->
-<!-- <section id="contact-careers" class="wrapper pad-t-2 pad-b-2">
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1-2">
-      <div class="embed embed-16by9">
-        <img class="img-flex embed-item" src="{{ .Site.Data.contact.careers.careersImage }}" alt="">
-      </div>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 island">
-      <h2>Careers</h2>
-      <p>{{ .Site.Data.contact.careers.careersText}}</p>
-      <p class="push-0"><strong>Email</strong> {{ .Site.Data.contact.contactInformation.contactEmail }}</p>
-      <p><strong>Phone</strong> {{ .Site.Data.contact.contactInformation.contactTel }}</p>
-    </div>
-  </div>
-</section> #} -->
+
+
 {{- partial "getintouch.html" . -}}
 
 {{ end }}
