@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<section class="small-banner" style="background: linear-gradient(to right, rgba(54, 60, 79, .75) , rgba(54, 60, 79, .75)), url({{ .Site.Data.healthcareadministrators.banner.image }}); background-size: cover; background-position: center center;">
+  <div class="small-banner-container wrapper grid">
+    <div class="unit xs-1 s-1 m-1 l-1-2">
+      <h1 class="yotta push-0">Terms of Service</h1>
+    </div>
+  </div>
+</section>
+
+{{- partial "getintouch.html" . -}}
+
+{{ end }}

@@ -17,6 +17,7 @@ h2 {
 
 p {
     margin: 0 0 0.85em;
+    color:  #353C51;
 }
 
 .margin-bottom {
@@ -87,6 +88,24 @@ li.push-1-2 {
 
 h3.milli {
     margin-bottom: 10px;
+}
+
+h4.text-center {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+input, textarea {
+  border-radius: 8px;
+  border-color: #9b9faa;
+}
+
+.nav-btn {
+  border-color: #50A193;
 }
 
 /* Homepage */
@@ -380,6 +399,31 @@ footer.nav-footer {
   background-color: #353C51;
 }
 
+footer .footer-copyright, .nav-btn {
+  background-color: #50A193;
+  border: none;
+}
+
+footer .footer-copyright {
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  text-align: center;
+}
+
+footer small.terms {
+  float: right;
+  margin-right: 20px;
+}
+
+footer small.terms a:hover {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
 footer h3,
 footer a {
   color: #fff;
@@ -388,6 +432,14 @@ footer a {
 footer h3:hover,
 footer a:hover {
   color: #5d8fa8;
+}
+
+footer h3 {
+  color: #D8E5FE;
+}
+
+footer h3:hover {
+  color: #D8E5FE;
 }
 
 
