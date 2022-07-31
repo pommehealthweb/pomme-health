@@ -9,12 +9,12 @@
 </section>
 
 <section class="grid wrapper push-2">
-  <div class="media-items width-100">
+  <div class="width-100">
     <div class="unit xs-1 s-1 text-center wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <h3>Benefits</h3>
+      <h3 class="benefits">Benefits</h3>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/easytoUse-green.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/data-entry-green.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/fast-green.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -53,7 +53,7 @@
       </div>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/noTraining-green.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -69,8 +69,8 @@
 </section>
 
 <section class="grid wrapper push-2">
-  <div class="media-items width-100">
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+  <div class="width-100">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/easytoUse-green-blue.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -83,7 +83,7 @@
       </div>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/data-entry-green-blue.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -96,7 +96,7 @@
       </div>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/fast-green-blue.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -109,7 +109,7 @@
       </div>
     </div>
 
-    <div class="unit s-1-4 media-object wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <img class="width-100 media-image" src="/images/noTraining-green-blue.png" alt="">
       <div class="media-body">
         <h3>Headline</h3>
@@ -126,7 +126,7 @@
 
 <section class="grid wrapper push-2">
   <div class="media-items width-100">
-    <div class="unit xs-1 s-1 m-2-5 float-left wow animate__animated animate__fadeInLeft" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit xs-1 s-1 m-2-5 float-left wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
         <img class="width-100" src="/images/doctor-staff.png" alt="">
     </div>
 
@@ -140,7 +140,7 @@
 {{ range .Site.Data.healthcareadministrators.managersSections }}
 <section class="{{ .patients.professionalsBackground }} push-2 {{ .sectionPadding }} alternating-media">
   <div class="grid grid-middle wrapper media-items">
-    <div class="unit xs-1 s-1 m-2-5 media-image-left wow animate__animated animate__fadeInLeft {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit xs-1 s-1 m-2-5 media-image-left wow animate__animated animate__fadeIn {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <div class="embed embed-16by9">
         <img class="embed-item" src="{{ .image }}" alt="">
       </div>
@@ -149,7 +149,7 @@
       <h3>{{ .mainSectionHeader }}</h3>
       {{ .mainSectionText | markdownify }}
     </div>
-    <div class="unit xs-1 s-1 m-2-5 media-image-right wow animate__animated animate__fadeInRight {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit xs-1 s-1 m-2-5 media-image-right wow animate__animated animate__fadeIn {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <div class="embed embed-16by9">
         <img class="embed-item" src="{{ .image }}" alt="">
       </div>
