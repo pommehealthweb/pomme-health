@@ -6,6 +6,23 @@
   box-sizing: border-box;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body.body-login {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 1080px;
+}
+
+main {
+  flex: 1;
+}
 
 h1 {
     margin: 0 0 0.25em;
@@ -30,6 +47,14 @@ p {
 
 .no-padding-bottom {
   padding-bottom: 0;
+}
+
+.pad-t-1 {
+  padding-top: 2.25em;
+}
+
+.pad-b-1 {
+  padding-bottom: 2.25em;
 }
 
 .width-100 {
@@ -71,6 +96,39 @@ button:focus,
 select:focus {
     outline: 1px solid #33BCAF;
     z-index: 500;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+main.login {
+  display: flex;
+  position: relative;
+  background-color: #f5f5f5;
+  align-items: center;
+}
+
+
+main.login > section {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+
+.return-login a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #353c51;
+  font-weight: normal;
+}
+
+.return-login a:hover {
+  text-decoration: underline;
 }
 
 /* Get in Touch */
@@ -256,6 +314,54 @@ div.news-card:hover {
   transition: 0.15s ease-in;
 }
 
+div.easy-to-use {
+  background-image: url(../images/easy-to-use.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 82px;
+  height: 82px;
+}
+
+div.easy-to-use:hover {
+  background-image: url(../images/easy-to-use.gif);
+}
+
+div.entering-data {
+  background-image: url(../images/entering-data.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 82px;
+  height: 82px;
+}
+
+div.entering-data:hover {
+  background-image: url(../images/entering-data.gif);
+}
+
+div.fast-efficient {
+  background-image: url(../images/fast-efficient.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 90px;
+  height: 90px;
+}
+
+div.fast-efficient:hover {
+  background-image: url(../images/fast-efficient.gif);
+}
+
+div.no-training-required {
+  background-image: url(../images/no-training-required.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 75px;
+  height: 75px;
+}
+
+div.no-training-required:hover {
+  background-image: url(../images/no-training-required.gif);
+}
+
 /* Blog */
 
 section.blog-section {
@@ -439,6 +545,7 @@ footer small.terms {
   width: 100%;
   text-align: right;
   margin-bottom: 1.5em;
+  margin-right: 15px;
 }
 
 footer small.terms a:hover {
@@ -454,7 +561,7 @@ footer a {
 
 footer h3:hover,
 footer a:hover {
-  color: #5d8fa8;
+  color: #D8E5FE;
 }
 
 footer h3 {
@@ -464,6 +571,11 @@ footer h3 {
 
 footer h3:hover {
   color: #D8E5FE;
+}
+
+footer a.technical-support {
+  color: #D8E5FE;
+  font-weight: 600;
 }
 
 

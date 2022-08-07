@@ -1,7 +1,7 @@
 ---
 title: "Customizable"
 date: 2022-04-23T08:18:50-04:00
-layout: main-sections
+layout: customizable
 ---
 
 # Customizable

@@ -1,7 +1,7 @@
 ---
 title: "Continuous"
 date: 2022-04-23T08:18:38-04:00
-layout: main-sections
+layout: continuous
 ---
 
 # Continuous

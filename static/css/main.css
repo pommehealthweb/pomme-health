@@ -198,8 +198,8 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--color-dark-gray);
-  font-weight: 700;
+  /*color: var(--color-dark-gray);*/
+  color: #D8E5FE;
 }
 
 .nav-footer {

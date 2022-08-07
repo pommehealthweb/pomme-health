@@ -1,7 +1,7 @@
 ---
 title: "Collaborative"
 date: 2022-04-23T08:18:15-04:00
-layout: main-sections
+layout: collaborative
 ---
 
 # Collaborative

@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="grid wrapper push-2 container">
+  <div class="unit xs-1 s-1 m-1-2">
+    <section class="max-length pad-t-1 pad-b-1">
+      <img src="/images/customizable-healthcare-patient-all.png">
+    </section>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2">
+    <section class="max-length pad-t-1 pad-b-1">
+      {{ .Content}}
+    </section>
+  </div>
+</section>
+
+{{- partial "getintouch.html" . -}}
+
+{{ end }}
