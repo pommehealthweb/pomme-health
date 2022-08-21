@@ -41,10 +41,6 @@ p {
   margin-bottom: 0.75em;
 }
 
-.padding-left {
-  padding-left:  1.75em;
-}
-
 .no-padding-bottom {
   padding-bottom: 0;
 }
@@ -129,6 +125,15 @@ main.login > section {
 
 .return-login a:hover {
   text-decoration: underline;
+}
+
+main.login > section.login {
+  width: 24em;
+  height: auto;
+}
+
+section.section-p p {
+  font-size: 17px;
 }
 
 /* Get in Touch */
@@ -576,6 +581,20 @@ footer h3:hover {
 footer a.technical-support {
   color: #D8E5FE;
   font-weight: 600;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+  .padding-left {
+    padding-left: 1.85em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
 }
 
 
