@@ -239,6 +239,18 @@ section.home-cards {
   margin-bottom: 6px;
 }
 
+.black {
+  color: #353C51;
+}
+
+.blue {
+  color: #5d8fa8;
+}
+
+.pad-l-1-2 {
+  padding-left: 1.75em;
+}
+
 /* Navigation */
 
 .list-group.push-0.nav-list.text-center {
