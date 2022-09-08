@@ -198,7 +198,7 @@ input, textarea {
 /* Homepage */
 
 h1.home-title {
-  margin-bottom: 0.45em; 
+  margin-bottom: 0.125em; 
 }
 
 .secondary-btn {
@@ -254,14 +254,46 @@ section.home-cards {
   padding-bottom: 3em;
 }
 
+.main-btn {
+  padding: 6px 12px;
+}
+
+.ib {
+  display: inline-block;
+}
+
+p.intro {
+  font-size: 19px;
+}
+
 /* Navigation */
+
+.wrapper-nav {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    width: 100%;
+}
 
 .list-group.push-0.nav-list.text-center {
   margin-top: 0;
 }
 
 .menu {
-  top: 103px; 
+  top: 94px; 
+  align-items: center;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: none;
+    z-index: 500;
 }
 
 a.book-demo {
@@ -274,6 +306,40 @@ a.sign-in {
   color: #fff;
   background-color: #5D8FA8;
   border: none;
+}
+
+.l-1-8 {
+  width: 12.5%;
+}
+
+.l-2-8 {
+  width: 25%;
+}
+
+.l-6-8 {
+  width: 75%;
+}
+
+.l-5-8 {
+  width: 62.5%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.hamburger {
+  width: 50%;
+  margin-left: auto;
+}
+
+.dropdown-content {
+    top: 1.8em;
+    left: -2.5em;
 }
 
 /* Tabs */
@@ -648,13 +714,49 @@ footer a.technical-support {
 }
 
 @media only screen and (min-width: 38em) {
+
   .padding-left {
     padding-left: 1.85em;
   }
 }
 
+@media only screen and (min-width: 960px) {
+  
+  nav ul li {
+    padding: 0.125em 0.25em;
+  }
+}
+
 @media only screen and (min-width: 60em) {
 
+  .l-hidden {
+    display: none;
+    visibility: hidden;
+  }
+
+  nav li a {
+    padding: 3px;
+  }
+
+  .logo {
+    width: 7.225em;
+  }
+
+  .l-2-8 {
+    display: block;
+    visibility: visible;
+    width: 25%;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.5%;
+  }
+
+  nav li {
+      padding: 0.8125em 0.25rem;
+  }
 }
 
 
