@@ -53,6 +53,14 @@ p {
   padding-bottom: 2.25em;
 }
 
+.pad-t-2 {
+  padding-top: 3.75em;
+}
+
+.pad-b-2 {
+  padding-bottom: 3.75em;
+}
+
 .width-100 {
   width: 100%;
 }
@@ -192,6 +200,43 @@ input, textarea {
 
 h1.home-title {
   margin-bottom: 0.45em; 
+}
+
+.functional-outcomes-btn {
+  font-size: 15px;
+  width: 12em;
+  padding: 8px 12px;
+  background-color: #a6cfe3;
+  border: none;
+}
+
+.functional-outcomes-btn:hover {
+  color: #fff;
+}
+
+.healthcare-decisions-h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #5D8FA8!important;
+}
+
+.strong-collaborative-platform {
+  color: #5D8FA8;
+}
+
+section.home-cards {
+  padding-top: 3.75em;
+  padding-bottom: 3.75em;
+}
+
+.value-based-helthcare-bg {
+  background-color: #353C51;
+  margin: 0 0 3em;
+  text-align: center;
+}
+
+.value-based-helthcare-bg p {
+  margin-bottom: 6px;
 }
 
 /* Navigation */

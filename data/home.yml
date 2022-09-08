@@ -2,32 +2,30 @@ heroBanner:
   buttonText: Learn More
   image: /images/uploads/hero-banner.jpg
   text1: >-
-    POMMe-Health delivers a customizable, patient-centric communication platform that rapidly measures and tracks functional outcomes.
+    Tracking functional outcomes to measurably improve a patient's quality of life.
   text2: >-
-    Relevant performance metrics and healthcare KPIs measurably improve a patient’s quality of life.
-  text3: >-
-    Big data analytics provide predictive information to implement proactive interventions.
-  title: Value-based healthcare for everyone.
+    Eliminating gaps in healthcare through better communication.
+  title: Welcome to POMMe-Health
 sectionTitle1: >-
   Healthcare decisions driven by information from both the clinician and the patient.
 sectionTitle2: >-
   A collaborative platform that empowers disconnected teams to unite with clarity, context, and confidence.
 homeCards:
-  - icon: /images/uploads/accountability.png
+  - icon: /images/barriers-icon.svg
     text1: >-
       Clarifying professional roles and organizational goals.
     text2: >- 
       Building a culture of trust.
     title: Break Down Barriers
-  - icon: /images/uploads/transparency.png
+  - icon: /images/common-language-icon.svg
     text1: >-
       Providing open communication.
     text2: >- 
       Being aware of all interventions provided.
     title: Informed Decisions
-  - icon: /images/uploads/due-diligence.png
+  - icon: /images/driven-by-passion-icon.svg
     text1: >-
-      Delivering the right care at the right time for the right person.
+      Delivering the right care at the right time for the right reason.
     text2: >- 
       Ensuring there are no gaps in care.
     title: Driven by Data
