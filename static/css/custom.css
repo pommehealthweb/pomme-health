@@ -224,6 +224,28 @@ h1.home-title {
   background-color: #353C51;
 }
 
+.home-btn {
+  font-size: 14px!important;
+  width: 12em;
+  padding: 8px 12px;
+  background-color: #d5e4f9;
+  border: none;
+  display: inline-block;
+  margin: 0;
+  overflow: visible;
+  border-radius: 40px;
+  color: #000;
+  font: inherit;
+  text-decoration: none;
+  text-transform: none;
+  transition: all .3s ease; 
+}
+
+.home-btn:hover {
+  color: #fff;
+  background-color: #353C51;
+}
+
 .healthcare-decisions-h2 {
   text-align: center;
   font-size: 1.5em;
