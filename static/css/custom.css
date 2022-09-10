@@ -38,7 +38,7 @@ p {
 }
 
 .functional-outcomes {
-  padding-bottom: 6em
+  padding-bottom: 6em!important;
 }
 
 .margin-bottom {
