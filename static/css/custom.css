@@ -437,6 +437,10 @@ a.sign-in {
   justify-content: flex-end;
 }
 
+nav li a:hover {
+  color: #50A193;
+}
+
 /* Tabs */
 
 div.tab-wrapper {
