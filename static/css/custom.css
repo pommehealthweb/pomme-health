@@ -253,7 +253,8 @@ h1.home-title {
   font: inherit;
   text-decoration: none;
   text-transform: none;
-  transition: all .3s ease; 
+  transition: all .3s ease;
+  text-align: center; 
 }
 
 .home-btn:hover {
