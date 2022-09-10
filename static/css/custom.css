@@ -276,6 +276,8 @@ section.home-cards {
 
 p.intro {
   font-size: 19px;
+  margin-bottom: 0.85em!important;
+  line-height: 1.45;
 }
 
 .measurably-improving-banner {
