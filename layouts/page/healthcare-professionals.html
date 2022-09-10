@@ -8,26 +8,45 @@
   </div>
 </section>
 
-{{ range .Site.Data.healthcareprofessionals.professionalsSections }}
-<section class="{{ .patients.professionalsBackground }} push-2 {{ .sectionPadding }} alternating-media">
-  <div class="grid grid-middle wrapper media-items">
-    <div class="unit xs-1 s-1 m-2-5 media-image-left wow animate__animated animate__fadeInLeft {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="embed embed-16by9">
-        <img class="embed-item" src="{{ .image }}" alt="">
+<section class="grid wrapper push-2">
+  <div class="width-100">
+    <div class="unit xs-1 s-1 text-center wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <h3 class="benefits">Benefits for Healthcare Providers</h3>
+    </div>
+
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div class="width-100 media-image fast-efficient"></div>
+      <div class="media-body">
+        <h3 class="kilo">Fast</h3>
+        <p>POMMe-Health is designed to save time for healthcare providers.<br>Spend more time with your patients.</p>
       </div>
     </div>
-    <div class="unit xs-1 s-1 m-3-5 island media-body wow animate__animated animate__fadeIn {{ .pullClass}}" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <h3>{{ .mainSectionHeader }}</h3>
-      {{ .mainSectionText | markdownify }}
+
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div class="width-100 media-image no-training-required"></div>
+      <div class="media-body">
+        <h3 class="kilo">Little to no training</h3>
+        <p>Scoring system functional outcomes is easy to understand. All disciplines can use POMMe-Health.</p>
+      </div>
     </div>
-    <div class="unit xs-1 s-1 m-2-5 media-image-right wow animate__animated animate__fadeInRight {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="embed embed-16by9">
-        <img class="embed-item" src="{{ .image }}" alt="">
+
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div class="width-100 media-image easy-to-use"></div>
+      <div class="media-body">
+        <h3 class="kilo">Easy to use</h3>
+        <p>Intuitive design and function aligns with the clinical flow that healthcare teams expect.</p>
+      </div>
+    </div>
+
+    <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div class="width-100 media-image entering-data"></div>
+      <div class="media-body">
+        <h3 class="kilo">Efficient data entry</h3>
+        <p>Using a common language for all providers makes entering and analyzing data easy.</p>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
 
 {{- partial "getintouch.html" . -}}
 

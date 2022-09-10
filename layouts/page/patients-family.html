@@ -11,32 +11,22 @@
 <section class="grid wrapper push-2">
   <div class="width-100">
     <div class="unit xs-1 s-1 text-center wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <h3 class="benefits">Benefits</h3>
+      <h3 class="benefits">Benefits for Healthcare Providers</h3>
     </div>
 
     <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <div class="width-100 media-image easy-to-use"></div>
       <div class="media-body">
-        <h3 class="kilo">Easy to Use</h3>
-        <ul>
-          <li>Header 1</li>
-          <li>Header 2</li>
-          <li>Header 3</li>
-          <li>Header 4</li>
-        </ul>
+        <h3 class="kilo">Easy to use</h3>
+        <p>POMMe-Health is simple and can be easily used at home.</p>
       </div>
     </div>
 
     <div class="unit s-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
       <div class="width-100 media-image entering-data"></div>
       <div class="media-body">
-        <h3 class="kilo">Entering data understood by everyone</h3>
-        <ul>
-          <li>Header 1</li>
-          <li>Header 2</li>
-          <li>Header 3</li>
-          <li>Header 4</li>
-        </ul>
+        <h3 class="kilo">Easy to understand</h3>
+        <p>The scoring system is easy to understand for patients and their family.</p>
       </div>
     </div>
 
@@ -44,12 +34,7 @@
       <div class="width-100 media-image fast-efficient"></div>
       <div class="media-body">
         <h3 class="kilo">Fast and efficient</h3>
-        <ul>
-          <li>Header 1</li>
-          <li>Header 2</li>
-          <li>Header 3</li>
-          <li>Header 4</li>
-        </ul>
+        <p>POMMe-Health is designed to be fast. Your time is valuable.</p>
       </div>
     </div>
 
@@ -57,50 +42,11 @@
       <div class="width-100 media-image no-training-required"></div>
       <div class="media-body">
         <h3 class="kilo">No training required</h3>
-        <ul>
-          <li>Header 1</li>
-          <li>Header 2</li>
-          <li>Header 3</li>
-          <li>Header 4</li>
-        </ul>
+        <p>The platform is intuitive and can be used right away.</p>
       </div>
     </div>
   </div>
 </section>
-
-<section class="grid wrapper push-2">
-  <div class="media-items width-100">
-    <div class="unit xs-1 s-1 m-2-5 float-left wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-        <img class="width-100" src="/images/daughter-elderly-mother-cat.png" alt="">
-    </div>
-
-    <div class="unit xs-1 s-1 m-3-5 float-left wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <h3>POMMe Health</h3>
-      <p>POMMe Health Description</p>
-    </div>
-  </div>
-</section>
-
-{{ range .Site.Data.patientsfamily.patientsSections }}
-<section class="{{ .patients.professionalsBackground }} push-2 {{ .sectionPadding }} alternating-media">
-  <div class="grid grid-middle wrapper media-items">
-    <div class="unit xs-1 s-1 m-2-5 media-image-left wow {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="embed embed-16by9">
-        <img class="embed-item" src="{{ .image }}" alt="">
-      </div>
-    </div>
-    <div class="unit xs-1 s-1 m-3-5 island media-body wow animate__animated animate__fadeIn {{ .pullClass}}" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <h3>{{ .mainSectionHeader }}</h3>
-      {{ .mainSectionText | markdownify }}
-    </div>
-    <div class="unit xs-1 s-1 m-2-5 media-image-right wow animate__animated animate__fadeIn {{ .pushClass }}" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="embed embed-16by9">
-        <img class="embed-item" src="{{ .image }}" alt="">
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
 
 {{- partial "getintouch.html" . -}}
 

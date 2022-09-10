@@ -305,6 +305,10 @@ img.mother-daughter {
   align-items: center;
 }
 
+.media-object p {
+  font-size: 15px;
+}
+
 /* Navigation */
 
 header.navigation-header {
