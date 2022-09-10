@@ -235,7 +235,7 @@ section.home-cards {
 }
 
 .value-based-helthcare-bg p {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .black {
@@ -244,6 +244,7 @@ section.home-cards {
 
 .blue {
   color: #5d8fa8;
+  margin: 0 0 0.75em 0;
 }
 
 .pad-l-1-2 {
@@ -266,7 +267,29 @@ p.intro {
   font-size: 19px;
 }
 
+.measurably-improving-banner {
+  padding: 0.975em 0;
+}
+
+img.healthcare-providers {
+  width: 100%;
+  max-width: 15.75em;
+  margin: 0 auto;
+}
+
+img.mother-daughter {
+  width: 100%;
+  max-width: 15.75em;
+  margin: 0 auto;
+}
+
 /* Navigation */
+
+header.navigation-header {
+  /*position: fixed;*/
+  background-color: #fff;
+  width: 100%;
+}
 
 .wrapper-nav {
     margin-left: auto;
@@ -340,6 +363,11 @@ a.sign-in {
 .dropdown-content {
     top: 1.8em;
     left: -2.5em;
+}
+
+.justify-content-end {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Tabs */
@@ -751,11 +779,25 @@ footer a.technical-support {
   .menu {
     display: flex;
     justify-content: space-between;
-    padding-left: 3.5%;
+  }
+
+  header.navigation-header div.grid {
+    max-width: 65em;
+    margin: 0 auto;
   }
 
   nav li {
       padding: 0.8125em 0.25rem;
+  }
+
+  .justify-content-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .justify-content-center {
+    display: flex;
+    justify-content: center;
   }
 }
 

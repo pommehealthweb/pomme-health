@@ -14,11 +14,11 @@
 
 <section class="wrapper pad-t-1 pad-b-1 gutter-1-2">
   <h2 class="healthcare-decisions-h2">Healthcare decisions</h2>
-  <p class="text-center">...driven by information from both the clinician and the patient.</p>
-  <p class="pad-b text-center">A <strong class="strong-collaborative-platform">collaborative platform</strong> that empowers interdisciplinary teams<br>to unite with clarity, context, and confidence.</p>
+  <p class="text-center">... driven by information from both the clinician and the patient.</p>
+  <p class="text-center">A <strong class="strong-collaborative-platform">collaborative platform</strong> that empowers interdisciplinary teams<br>to unite with clarity, context, and confidence.</p>
   <ul class="list-group grid grid-top margin-top">
     {{ range .Site.Data.home.homeCards }}
-      <li class="unit xs-1 s-1 m-1-3 l-1-3 text-center island-1-2 wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.25s" data-wow-offset="180">
+      <li class="unit xs-1 s-1 m-1-3 l-1-3 text-center island-1-2" data-wow-duration="1.25s" data-wow-delay="0.25s" data-wow-offset="180">
         <i class="icon i-128 push-1-2">
           <img src="{{ .icon }}" alt="">
         </i>
@@ -32,19 +32,19 @@
 
 <section class="pad-t-1 pad-b-1 gutter-1-2 value-based-helthcare-bg">
   <div class="wrapper">
-    <h2 class="white">Value-based healthcare for everyone</h2>
-    <p class="white">POMMe-Health delivers a customizable, patient-centric communication platform that rapidly measures and tracks functional outcomes.</p>
-    <p class="white">Big data analytics provide predictive information to implement proactive interventions.</p>
-    <p class="white">Relevant performance metrics and healthcare KPIs measurably improve a patient’s quality of life.</p>
+    <h2 class="white">Value-based healthcare for everyone.</h2>
+    <p class="white">POMMe-Health delivers a customizable, patient-centric communication platform<br>that rapidly measures and tracks functional outcomes.</p>
+    <p class="white">Big data analytics provide predictive information to implement proactive interventions.<br>Relevant performance metrics and healthcare KPIs measurably keep healthcare teams on track.</p>
   <div>
 </section>
 
 <section class="pad-b-2 gutter-1-2">
   <div class="grid wrapper">
     <div class="xs-1 text-center pad-b-1-2">
-      <h2>Collaborative healthcare made eaiser for ...</h2>
+      <h2>Collaborative healthcare made easier for ...</h2>
     </div>
     <div class="xs-1 s-1 m-1-2 l-1-2 text-center">
+      <img class="healthcare-providers" src="/images/healthcare-providers.png">
       <h3>Healthcare Providers</h3>
       <p>Understanding the context of all healthcare interventions.<br>
       Trusting your team and the care you provide.</p>
@@ -52,6 +52,7 @@
       <button class="secondary-btn" href="#">Healthcare Providers</button>
     </div>
     <div class="xs-1 s-1 m-1-2 l-1-2 text-center">
+      <img class="mother-daughter" src="/images/mother-daughter.png">
       <h3>Patients &amp; Family</h3>
       <p>Being part of the decision-making process.<br>
       Being aware of what each healthcare provider is responsible for.</p>
@@ -62,7 +63,7 @@
 </section>
 
 <section class="value-based-helthcare-bg">
-  <h2 class="pad-t-1 pad-b-1 white">Measurably improving a patient's quality of life.</h2>
+  <h2 class="measurably-improving-banner white">Measurably improving a patient's quality of life.</h2>
 </section>
 
 <section>
@@ -114,7 +115,7 @@
   </div>
   <div class="unit xs-1 s-1 m-1-2">
     <section class="max-length pad-t-1 pad-b-1 pad-l-1-2 section-p">
-      <h2 class="black">Continuous</h2>
+      <h2 class="black">Continuous and Proactive</h2>
       <h4 class="blue">Tracking progress over time.</h4>
       <p>The ability to intervene sooner when subtle changes are recognized in patient functioning.</p>
       <p>Continuous quality improvement with measurement and management for optimal patient outcomes.</p>
@@ -122,21 +123,6 @@
       <p>Long-range big data analytics to determine best resource allocation for patient groups.</p>
     </section>
   </div>
-</section>
-
-<section class="grid grid-middle wrapper home-panels">
-{{ range .Site.Data.home.homeSections }}
-  <div class="unit home-page-sections xs-1 s-1 m-1-2 wow animate__animated animate__fadeInRight" data-wow-duration="1.25s" data-wow-delay="0.35s">
-    <div class="{{ .pullClass }} island">
-      <p class="push-1-2 bold">{{ .leadingText }}</p>
-      <h2>{{ .mainSectionHeader }}</h2>
-      <p>{{ .mainSectionText | markdownify }}</p>
-      <div class="">
-        <a class="main-btn ib milli" href="{{ .buttonLink }}">{{ .sectionButton }}</a>
-      </div>
-    </div>
-  </div>
-{{ end }}
 </section>
 
 <p>{{ .Site.Data.home.testing }}</p>
