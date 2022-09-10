@@ -6,15 +6,20 @@ layout: terms-of-service
 ---
 
 PLEASE READ THESE TERMS OF USE (“TERMS”) CAREFULLY BECAUSE THEY DESCRIBE YOUR RIGHTS AND RESPONSIBILITIES AND FORM A LEGALLY BINDING AGREEMENT BETWEEN CUSTOMER (“Customer”, “you”, “your”) AND POMME-HEALTH INC. (“POMMe”, “us”, “our”) REGARDING YOUR USE OF OUR WEBSITE (the “Site”) AND ACCESS TO OUR BETA PLATFORM (the “Platform”). IF YOU USE OUR SITE OR ACCESS OUR PLATFORM, YOU WILL BE AGREEING TO OUR TERMS. IF FOR ANY REASON, YOU ARE UNABLE OR UNWILLING TO AGREE TO ALL OUR TERMS, PLEASE STOP USING OUR SITE OR ACCESSING OUR PLATFORM.
+
 These Terms may change at any time, and notice to this effect together with the changed terms will be posted on this website page, and will be binding on you as of the date of posting.
+
 1.  Definitions
 "Confidential Information” means any proprietary information belonging to POMMe, including all code, inventions, know-how and business, technical and financial information, and any other information that Customer reasonably ought to know is confidential due to the nature of the information disclosed and circumstances surrounding disclosure. Confidential Information does not include and information that (i) was rightfully in Customer’s possession or known to it prior to receipt of the Confidential Information; or (ii) is or has become public knowledge through no fault of Customer; (iii) is rightfully obtained by Customer from a third party without breach of any confidentiality obligation.
+
 “Customer Data” means any data you have posted, uploaded, delivered, or otherwise transmitted to the Platform, for the purpose of testing the Platform. Customer Data specifically prohibits any Patient Data.
 "Patient Data” means any information pertaining to Customer’s patients, including a patient’s Personal Information, Personal Health Information, confidential information.
+
 “Personal Information” means any information about an identifiable individual.
 “Personal Health Information” means (a) information concerning the physical or mental health of the individual; (b) information concerning any health service provided to the individual; (c) information concerning the donation by the individual of any body part or any bodily substance of the individual or information derived from the testing or examination of a body part or bodily substance of the individual; (d) information that is collected in the course of providing health services to the individual; or (e) information that is collected incidentally to the provision of health services to the individual. Personal Health Information applies to any individual, whether living or deceased.
-“Platform” means POMMe’s platform intended to assist in patient care, currently in its Beta testing phase. 
-“Site” means POMMe’s website.
+
+“Platform” means POMMe’s platform intended to assist in patient care, currently in its Beta testing phase. “Site” means POMMe’s website.
+
 2.  Platform Access and Restrictions
 2.1.    The Platform is made available to you on a limited access basis for testing or evaluation purposes only, and no ownership right is conveyed to you. POMMe retains all right, title, and interest, including all intellectual property rights, in and to the Platform.
 2.2.    YOU ACKNOWLEDGE AND ACCEPT THAT THE PLATFORM IS IN BETA TESTING FORM, INTENDED FOR TESTING AND EVALUATING PURPOSES ONLY AND IS NOT MEANT TO BE DEPLOYED OR IMPLEMENTED AT YOUR BUSINESS. ACCESS TO THE PLATFORM IS ONLY GRANTED FOR THE LIMITED PURPOSES, AS SET OUT HEREIN. ANY OTHER PURPOSE IS STRICTLY PROHIBITED AND POMME MAY TERMINATE YOUR ACCESS TO THE PLATFORM IMMEDIATELY UPON BREACH OF THIS SECTION. YOU AGREE TO FULLY INDEMNIFY, RELEASE AND HOLD HARMLESS POMME FOR ANY COSTS, DAMAGES, PENALTIES, FINES OR THE LIKE ARISING FROM YOUR MISUSE OF THE PLATFORM, INCLUDING UPLOADING ANY PATIENT DATA TO THE PLATFORM.

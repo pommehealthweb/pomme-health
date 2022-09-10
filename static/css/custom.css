@@ -196,6 +196,17 @@ input, textarea {
   border-color: #50A193;
 }
 
+.s-1-2 {
+  width: 49.75%;
+}
+
+.terms p,
+.terms li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #353C51;
+}
+
 /* Homepage */
 
 h1.home-title {
@@ -278,6 +289,14 @@ section.home-cards {
 .blue {
   color: #5d8fa8;
   margin: 0 0 0.75em 0;
+}
+
+.pad-t-1 {
+  padding-top:  1.75em;
+}
+
+.pad-t-2 {
+  padding-top:  3em;
 }
 
 .pad-l-1-2 {
@@ -511,10 +530,6 @@ section.alternating-media:nth-child(even) > div div.media-image-right {
   display: none;
 }
 
-div.media-items {
-  background-color: #F8F8F8;
-}
-
 div.news-card:hover {
   color: #fff;
   background-color: #92bcd0;
@@ -567,6 +582,66 @@ div.no-training-required {
 
 div.no-training-required:hover {
   background-image: url(../images/no-training-required.gif);
+}
+
+div.cohesion {
+  background-image: url(../images/cohesion.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 75px;
+  height: 75px;
+}
+
+div.cohesion:hover {
+  background-image: url(../images/cohesion.gif);
+}
+
+div.confidence {
+  background-image: url(../images/confidence.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 75px;
+  height: 75px;
+}
+
+div.confidence:hover {
+  background-image: url(../images/confidence.gif);
+}
+
+div.clarity {
+  background-image: url(../images/clarity.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 75px;
+  height: 75px;
+}
+
+div.clarity:hover {
+  background-image: url(../images/clarity.gif);
+}
+
+div.collaboration {
+  background-image: url(../images/collaboration.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 75px;
+  height: 75px;
+}
+
+div.collaboration:hover {
+  background-image: url(../images/collaboration.gif);
+}
+
+div.transparency {
+  background-image: url(../images/transparency.png);
+  background-size: cover;
+  margin: 5px 10px 5px 0;
+  width: 75px;
+  height: 75px;
+}
+
+div.transparency:hover {
+  background-image: url(../images/transparency.gif);
 }
 
 /* Blog */
@@ -691,7 +766,6 @@ form.request-form {
 .media-object {
   display: flex;
   align-items: flex-start;
-  padding: 1rem;
   max-width: 20rem;
   margin: 0 0 1rem 0;
   float: left;
@@ -731,6 +805,10 @@ footer {
 footer.nav-footer {
   color: #fff;
   background-color: #353C51;
+}
+
+footer.nav-footer > div.grid {
+  padding-left: 3%;
 }
 
 footer .footer-copyright, .nav-btn {
@@ -803,7 +881,7 @@ footer div.footer-logo ul {
 }
 
 footer.nav-footer div.grid {
-  max-width: 1100px;
+  max-width: 1200px;
 }
 
 @media only screen and (min-width: 25em) {
