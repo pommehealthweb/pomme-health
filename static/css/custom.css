@@ -296,6 +296,15 @@ img.mother-daughter {
   margin: 0 auto;
 }
 
+.collaborative-healthcare {
+  margin: 0.85em 0;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
 /* Navigation */
 
 header.navigation-header {
@@ -715,7 +724,8 @@ footer p {
 footer small.terms {
   display: block;
   width: 100%;
-  text-align: right;
+  text-align: left;
+  margin-top: 3.75em;
   margin-bottom: 1.5em;
   margin-right: 15px;
 }
@@ -748,6 +758,26 @@ footer h3:hover {
 footer a.technical-support {
   color: #D8E5FE;
   font-weight: 600;
+}
+
+footer div.footer-logo img,
+footer div.footer-logo ul {
+    display: inline-block;
+    width: 100%;
+}
+
+footer div.footer-logo img {
+  max-width: 10.75em;
+  margin-right:  0.5em;
+}
+
+footer div.footer-logo ul {
+  max-width: 8em;
+  margin: 0;
+}
+
+footer.nav-footer div.grid {
+  max-width: 1100px;
 }
 
 @media only screen and (min-width: 25em) {
