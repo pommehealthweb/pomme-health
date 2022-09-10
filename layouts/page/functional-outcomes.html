@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="grid wrapper push-2 container terms">
+  <div class="unit xs-1 s-1 m-2-3">
+    <section class="max-length pad-t-1 pad-b-1 section-p">
+      <h2>Functional Outcomes</h2>
+      {{ .Content}}
+    </section>
+  </div>
+</section>
+
+{{- partial "getintouch.html" . -}}
+
+{{ end }}
