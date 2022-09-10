@@ -106,6 +106,7 @@ select:focus {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 main.login {
@@ -202,15 +203,25 @@ h1.home-title {
 }
 
 .secondary-btn {
-  font-size: 15px;
+  font-size: 15px!important;
   width: 12em;
   padding: 8px 12px;
   background-color: #d5e4f9;
   border: none;
+  display: inline-block;
+  margin: 0;
+  overflow: visible;
+  border-radius: 40px;
+  color: #000;
+  font: inherit;
+  text-decoration: none;
+  text-transform: none;
+  transition: all .3s ease;
 }
 
 .secondary-btn:hover {
   color: #fff;
+  background-color: #353C51;
 }
 
 .healthcare-decisions-h2 {
