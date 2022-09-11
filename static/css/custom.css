@@ -926,6 +926,10 @@ footer.nav-footer div.grid {
     width: 7.225em;
   }
 
+  .l-1-2 {
+    width: 49.75%;
+  }
+
   .l-2-8 {
     display: block;
     visibility: visible;
