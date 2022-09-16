@@ -22,6 +22,7 @@ body.body-login {
 
 main {
   flex: 1;
+  z-index: -50;
 }
 
 h1 {
@@ -30,11 +31,16 @@ h1 {
 
 h2 {
     margin:  0 0 0.35em;
+    font-weight: 600;
 }
 
 p {
     margin: 0 0 0.85em;
     color:  #353C51;
+}
+
+.jumbotron-banner h1 {
+  font-weight: 400;
 }
 
 .functional-outcomes {
@@ -355,12 +361,37 @@ img.mother-daughter {
   font-size: 15px;
 }
 
+strong.functional-outcomes-btn {
+  font-weight: 700;
+}
+
 /* Navigation */
 
+header {
+  z-index: 50;
+}
+
+nav.menu,
+ul.nav {
+  position: absolute;
+  margin-top: 0;
+  top: 47px;
+  width: 20em;
+}
+
 header.navigation-header {
-  /*position: fixed;*/
+  position: fixed;
   background-color: #fff;
   width: 100%;
+}
+
+section.jumbotron-banner {
+    padding-top: 3.85em;
+}
+
+.hamburger {
+    position: absolute;
+    right: 10px;
 }
 
 .wrapper-nav {
@@ -368,10 +399,6 @@ header.navigation-header {
     margin-right: auto;
     max-width: 80em;
     width: 100%;
-}
-
-.list-group.push-0.nav-list.text-center {
-  margin-top: 0;
 }
 
 .menu {
@@ -401,6 +428,7 @@ a.sign-in {
   color: #fff;
   background-color: #5D8FA8;
   border: none;
+  margin-right: 5px;
 }
 
 .l-1-8 {
@@ -442,8 +470,18 @@ a.sign-in {
   justify-content: flex-end;
 }
 
+nav li a {
+  padding: 12px 3px;
+  font-size: 16px!important;
+  z-index: 200;
+}
+
 nav li a:hover {
   color: #50A193;
+}
+
+ul.nav-list {
+  margin-top: 0;
 }
 
 /* Tabs */
@@ -893,6 +931,7 @@ footer.nav-footer div.grid {
   max-width: 1200px;
 }
 
+
 @media only screen and (min-width: 25em) {
 
 }
@@ -904,22 +943,59 @@ footer.nav-footer div.grid {
   }
 }
 
+@media only screen and (min-width: 608px) {
+  nav.menu,
+  ul.nav {
+    position: absolute;
+    margin-top: 0;
+    top: 48px;
+    width: 20em;
+  }
+}
+
 @media only screen and (min-width: 960px) {
-  
-  nav ul li {
-    padding: 0.125em 0.25em;
+
+  nav.menu ul li {
+    padding: 0;
+  }
+
+  .m-hidden {
+    display: none;
+    visibility: hidden;
+  }
+
+  .m-1-2 {
+    display: block;
+    visibility: visible;
+    width: 49.75%;
+  }
+
+  .m-2-8 {
+    display: block;
+    visibility: visible;
+    width: 21%;
+  }
+
+  .m-5-8 {
+    display: block;
+    visibility: visible;
+    width: 65%;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
+  nav.menu,
+  ul.nav {
+    position: static;
+    margin-top: 0;
+    padding-left: 28px;
+    width: initial;
+  }
+
   .l-hidden {
     display: none;
     visibility: hidden;
-  }
-
-  nav li a {
-    padding: 3px;
   }
 
   .logo {
@@ -933,22 +1009,18 @@ footer.nav-footer div.grid {
   .l-2-8 {
     display: block;
     visibility: visible;
-    width: 25%;
+    width: 21%;
   }
 
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 3.75%;
+  .l-5-8 {
+    display: block;
+    visibility: visible;
+    width: 65%;
   }
 
   header.navigation-header div.grid {
     max-width: 65em;
     margin: 0 auto;
-  }
-
-  nav li {
-      padding: 0.8125em 0.25rem;
   }
 
   .justify-content-end {
@@ -959,6 +1031,21 @@ footer.nav-footer div.grid {
   .justify-content-center {
     display: flex;
     justify-content: center;
+  }
+}
+
+
+@media only screen and (min-width: 1009px) {
+
+  nav.menu,
+  ul.nav {
+    position: static;
+    margin-top: 0;
+    width: initial;
+  }
+
+  nav li a.micro {
+    padding: 0 4px;
   }
 }
 
