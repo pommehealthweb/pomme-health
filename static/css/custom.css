@@ -119,6 +119,10 @@ select:focus {
   padding: 0 15px;
 }
 
+main {
+  padding-top: 3em;
+}
+
 main.login {
   display: flex;
   position: relative;
@@ -383,10 +387,6 @@ header.navigation-header {
   position: fixed;
   background-color: #fff;
   width: 100%;
-}
-
-section.jumbotron-banner {
-    padding-top: 3.85em;
 }
 
 .hamburger {
@@ -1019,8 +1019,9 @@ footer.nav-footer div.grid {
   }
 
   header.navigation-header div.grid {
-    max-width: 65em;
+    max-width: 80em;
     margin: 0 auto;
+    justify-content: center;
   }
 
   .justify-content-end {
@@ -1045,7 +1046,7 @@ footer.nav-footer div.grid {
   }
 
   nav li a.micro {
-    padding: 0 4px;
+    padding: 5px 4px;
   }
 }
 
