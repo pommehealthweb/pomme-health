@@ -1,6 +1,9 @@
 {{ define "main" }}
 
-<section class="small-banner" style="background: linear-gradient(to right, rgba(173, 36, 56, .5) , rgba(173, 36, 56, .5)), url({{ .Site.Data.patientsfamily.banner.image }}); background-size: cover; background-position: center center;">
+<section
+  class="small-banner"
+  style="background: linear-gradient(to right, rgba(173, 36, 56, .5) , rgba(173, 36, 56, .5)), url({{ .Site.Data.patientsfamily.banner.image }}); background-size: cover; background-position: center center;"
+>
   <div class="small-banner-container wrapper grid island">
     <div class="unit xs-1 s-1 m-1 l-1-2">
       <h1 class="yotta push-0">{{ .Site.Data.patientsfamily.banner.text }}</h1>
@@ -10,11 +13,11 @@
 
 <section class="grid wrapper container push-2">
   <div class="width-100">
-    <div class="unit xs-1 s-1 text-center wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <h3 class="benefits">Benefits for Healthcare Providers</h3>
+    <div class="unit xs-1 s-1 text-center">
+      <h3 class="benefits">Benefits for Patients & Family</h3>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1 l-1-4 media-object">
       <div class="width-100 media-image easy-to-use"></div>
       <div class="media-body">
         <h3 class="kilo">Easy to use</h3>
@@ -22,24 +25,27 @@
       </div>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1 l-1-4 media-object">
       <div class="width-100 media-image entering-data"></div>
       <div class="media-body">
         <h3 class="kilo">Easy to understand</h3>
-        <p>The scoring system is easy to understand for patients and their family.</p>
+        <p>
+          The scoring system is easy to understand for patients and their
+          family.
+        </p>
       </div>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="width-100 media-image fast-efficient"></div>
+    <div class="unit s-1 l-1-4 media-object">
+      <div class="width-100 media-image fast-efficient c-1"></div>
       <div class="media-body">
         <h3 class="kilo">Fast and efficient</h3>
         <p>POMMe-Health is designed to be fast. Your time is valuable.</p>
       </div>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="width-100 media-image no-training-required"></div>
+    <div class="unit s-1 l-1-4 media-object">
+      <div class="width-100 media-image no-training-required c-2"></div>
       <div class="media-body">
         <h3 class="kilo">No training required</h3>
         <p>The platform is intuitive and can be used right away.</p>
@@ -50,21 +56,26 @@
 
 <section class="grid wrapper push-2">
   <div class="media-items width-100">
-    <div class="unit xs-1 s-1 m-2-5 float-left wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-        <img class="width-100" src="/images/daughter-elderly-mother-cat.png" alt="">
+    <div class="unit xs-1 s-1 m-2-5 float-left">
+      <img
+        class="width-100"
+        src="/images/daughter-elderly-mother-cat.png"
+        alt=""
+      />
     </div>
 
-    <div class="unit xs-1 s-1 m-3-5 float-left pad-t-2 pad-l-1-2 wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit xs-1 s-1 m-3-5 float-left pad-t-2 pad-l-1-2">
       <h2>From the comfort of your home ...</h2>
       <h4 class="blue">Taking control of your healthcare with your team.</h4>
       <p>Being an active partner in your healthcare.</p>
-      <p>Sharing your ideas and information with your healthcare team. Taking action when concerns arise.</p>
+      <p>
+        Sharing your ideas and information with your healthcare team. Taking
+        action when concerns arise.
+      </p>
       <p>Staying on the same page as all of your providers.</p>
       <p>Being aware.</p>
     </div>
   </div>
 </section>
 
-{{- partial "getintouch.html" . -}}
-
-{{ end }}
+{{- partial "getintouch.html" . -}} {{ end }}

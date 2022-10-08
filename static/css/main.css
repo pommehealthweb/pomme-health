@@ -279,7 +279,7 @@ footer a:hover {
 
 .blog-card {
   border: 1px solid var(--color-medium-gray);
-  transition: all 0.215s ease-in;
+  /* transition: all 0.215s ease-in; */
   width: 100%;
 }
 
@@ -287,7 +287,7 @@ footer a:hover {
   font-weight: 700;
   color: var(--color-dark-gray);
   text-decoration: underline;
-  transition: all .2s ease;
+  /* transition: all .2s ease; */
 }
 
 .blog-card:hover {
@@ -304,7 +304,7 @@ footer a:hover {
 
 .blog-back {
   color: var(--color-blue);
-  transition: all .2s ease;
+  /* transition: all .2s ease; */
 }
 
 .blog-back:hover {

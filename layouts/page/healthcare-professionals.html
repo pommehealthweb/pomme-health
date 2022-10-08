@@ -1,48 +1,85 @@
 {{ define "main" }}
 
-<section class="small-banner" style="background: linear-gradient(to right, rgba(103, 142, 165, .75) , rgba(103, 142, 165, .75)), url({{ .Site.Data.healthcareprofessionals.banner.image }}); background-size: cover; background-position: center center;">
+<section
+  class="small-banner"
+  style="background: linear-gradient(to right, rgba(103, 142, 165, .75) , rgba(103, 142, 165, .75)), url({{ .Site.Data.healthcareprofessionals.banner.image }}); background-size: cover; background-position: center center;"
+>
   <div class="small-banner-container wrapper grid island">
     <div class="unit xs-1 s-1 m-1 l-1-2">
-      <h1 class="yotta push-0">{{ .Site.Data.healthcareprofessionals.banner.text }}</h1>
+      <h1 class="yotta push-0">
+        {{ .Site.Data.healthcareprofessionals.banner.text }}
+      </h1>
     </div>
   </div>
 </section>
 
 <section class="grid wrapper container push-2 p-b-1">
   <div class="width-100">
-    <div class="unit xs-1 s-1 text-center wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div
+      class="unit xs-1 s-1 text-center wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
       <h3 class="benefits">Benefits for Healthcare Providers</h3>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="width-100 media-image fast-efficient"></div>
+    <div
+      class="unit s-1 l-1-4 media-object wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
+      <div class="width-100 media-image fast-efficient c-4"></div>
       <div class="media-body">
         <h3 class="kilo">Fast</h3>
-        <p>POMMe-Health is designed to save time for healthcare providers.<br>Spend more time with your patients.</p>
+        <p>
+          POMMe-Health is designed to save time for healthcare providers.<br />Spend
+          more time with your patients.
+        </p>
       </div>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <div class="width-100 media-image no-training-required"></div>
+    <div
+      class="unit s-1 l-1-4 media-object wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
+      <div class="width-100 media-image no-training-required c-3"></div>
       <div class="media-body">
         <h3 class="kilo">Little to no training</h3>
-        <p>Scoring system functional outcomes is easy to understand. All disciplines can use POMMe-Health.</p>
+        <p>
+          Scoring system functional outcomes is easy to understand. All
+          disciplines can use POMMe-Health.
+        </p>
       </div>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div
+      class="unit s-1 l-1-4 media-object wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
       <div class="width-100 media-image easy-to-use"></div>
       <div class="media-body">
         <h3 class="kilo">Easy to use</h3>
-        <p>Intuitive design and function aligns with the clinical flow that healthcare teams expect.</p>
+        <p>
+          Intuitive design and function aligns with the clinical flow that
+          healthcare teams expect.
+        </p>
       </div>
     </div>
 
-    <div class="unit s-1 l-1-4 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div
+      class="unit s-1 l-1-4 media-object wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
       <div class="width-100 media-image entering-data"></div>
       <div class="media-body">
         <h3 class="kilo">Efficient data entry</h3>
-        <p>Using a common language for all providers makes entering and analyzing data easy.</p>
+        <p>
+          Using a common language for all providers makes entering and analyzing
+          data easy.
+        </p>
       </div>
     </div>
   </div>
@@ -50,58 +87,103 @@
 
 <section class="grid wrapper container push-2">
   <div class="width-100">
-    <div class="unit xs-1 s-1 text-center p-b-1 wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div
+      class="unit xs-1 s-1 text-center p-b-1 wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
       <h3 class="benefits">Team Dynamics</h3>
     </div>
 
-    <div class="unit s-1 l-1-2 wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
-      <img src="/images/healthcare-providers.png">
+    <div
+      class="unit s-1 l-1-2 wow"
+      data-wow-duration="1.25s"
+      data-wow-delay="0.185s"
+    >
+      <img src="/images/healthcare-providers.png" />
     </div>
 
-    <div class="unit s-1 l-1-2 wow animate__animated animate__fadeIn">
-      <div class="unit s-1 l-1-2 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+    <div class="unit s-1 l-1-2 wow">
+      <div
+        class="unit s-1 l-1-2 media-object wow"
+        data-wow-duration="1.25s"
+        data-wow-delay="0.185s"
+      >
         <div class="width-100 media-image cohesion"></div>
         <div class="media-body">
           <h3 class="kilo">Cohesion</h3>
-          <p>Interdisciplinary teams work better together when they utilize a common process. The united Care Management Plan provides cohesion for the team.</p>
+          <p>
+            Interdisciplinary teams work better together when they utilize a
+            common process. The united Care Management Plan provides cohesion
+            for the team.
+          </p>
         </div>
       </div>
 
-      <div class="unit s-1 l-1-2 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div
+        class="unit s-1 l-1-2 media-object wow"
+        data-wow-duration="1.25s"
+        data-wow-delay="0.185s"
+      >
         <div class="width-100 media-image confidence"></div>
         <div class="media-body">
           <h3 class="kilo">Confidence</h3>
-          <p>It is important for care providers to know that they are making a difference; that they are doing the best they can. POMMe-Health eliminates gaps in care.</p>
+          <p>
+            It is important for care providers to know that they are making a
+            difference; that they are doing the best they can. POMMe-Health
+            eliminates gaps in care.
+          </p>
         </div>
       </div>
 
-      <div class="unit s-1 l-1-2 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div
+        class="unit s-1 l-1-2 media-object wow"
+        data-wow-duration="1.25s"
+        data-wow-delay="0.185s"
+      >
         <div class="width-100 media-image clarity"></div>
         <div class="media-body">
           <h3 class="kilo">Clarity</h3>
-          <p>POMMe-Health reduces confusion for complex cases by delivering context for patient care. A common vision for the team for the patient is crucial for success.</p>
+          <p>
+            POMMe-Health reduces confusion for complex cases by delivering
+            context for patient care. A common vision for the team for the
+            patient is crucial for success.
+          </p>
         </div>
       </div>
 
-      <div class="unit s-1 l-1-2 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div
+        class="unit s-1 l-1-2 media-object wow"
+        data-wow-duration="1.25s"
+        data-wow-delay="0.185s"
+      >
         <div class="width-100 media-image collaboration"></div>
         <div class="media-body">
           <h3 class="kilo">Collaboration</h3>
-          <p>POMMe-Health allows for true collaboration ... a better outcome with all working together, not in silos.</p>
+          <p>
+            POMMe-Health allows for true collaboration ... a better outcome with
+            all working together, not in silos.
+          </p>
         </div>
       </div>
 
-      <div class="unit s-1 l-1-2 media-object wow animate__animated animate__fadeIn" data-wow-duration="1.25s" data-wow-delay="0.185s">
+      <div
+        class="unit s-1 l-1-2 media-object wow"
+        data-wow-duration="1.25s"
+        data-wow-delay="0.185s"
+      >
         <div class="width-100 media-image transparency"></div>
         <div class="media-body">
           <h3 class="kilo">Transparency</h3>
-          <p>Care providers know where they fit in and what they are responsible for. Knowing how each care provider's role fits into the care plan for the patient.</p>
+          <p>
+            Care providers know where they fit in and what they are responsible
+            for. Knowing how each care provider's role fits into the care plan
+            for the patient.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-{{- partial "getintouch.html" . -}}
-
-{{ end }}
+{{- partial "getintouch.html" . -}} {{ end }}
