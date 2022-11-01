@@ -97,6 +97,30 @@ div.home-description p.home-description-last {
   margin: auto;
 }
 
+.hcp-features {
+  padding: 60px 0 100px 0;
+}
+.hcp-features .benefits {
+  padding-bottom: 60px;
+}
+
+.hcp-features .kilo {
+  margin-top: 40px;
+}
+
+.hcp-features .kilo2 {
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.hcp-features .asterik {
+  color: #8e0039;
+  font-weight: bold;
+  font-size: 28px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
 /*------------Banner-------------*/
 
 .jumbotron-banner {
@@ -343,8 +367,16 @@ footer a:hover {
   background-color: #f8f8f8;
 }
 
+.hcp-features .media-body {
+  margin-left: 0;
+}
+
 @media only screen and (min-width: 38em) {
   .nav-footer {
     text-align: left;
+  }
+
+  .hcp-features .media-body {
+    margin-left: 100px;
   }
 }
