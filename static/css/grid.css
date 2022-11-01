@@ -35,7 +35,7 @@
 
 .opera-only :-o-prefocus,
 .grid {
-  word-spacing: -.43em;
+  word-spacing: -0.43em;
 }
 
 .unit {
@@ -259,7 +259,6 @@
 }
 
 @media only screen and (min-width: 25em) {
-
   .unit-s-hidden,
   .s-0 {
     display: none;
@@ -538,11 +537,9 @@
     -webkit-align-self: center;
     align-self: center;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
-
   .unit-m-hidden,
   .m-0 {
     display: none;
@@ -1082,11 +1079,9 @@
     -webkit-align-self: center;
     align-self: center;
   }
-
 }
 
 @media only screen and (min-width: 60em) {
-
   .unit-l-hidden,
   .l-0 {
     display: none;
@@ -1626,5 +1621,4 @@
     -webkit-align-self: center;
     align-self: center;
   }
-
 }

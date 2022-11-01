@@ -1,10 +1,10 @@
 :root {
   --font-primary: "Quicksand";
-  --color-light-gray: #FCFCFC;
-  --color-medium-gray: #A5A5A5;
-  --color-dark-gray: #353C51;
-  --color-blue: #33BCAF;
-  --color-medium-blue: #5D8FA8;
+  --color-light-gray: #fcfcfc;
+  --color-medium-gray: #a5a5a5;
+  --color-dark-gray: #353c51;
+  --color-blue: #33bcaf;
+  --color-medium-blue: #5d8fa8;
   --color-red: #ad2438;
 }
 
@@ -31,7 +31,7 @@ section.home-cards {
 }
 
 section.home-cards > p {
-  font-size:  1.2em;
+  font-size: 1.2em;
   margin: 0 auto;
   padding-bottom: 5px;
 }
@@ -52,7 +52,7 @@ div.home-description p.home-description-last {
   padding: 0.45em 0.75em;
   color: var(--color-blue);
   border-color: var(--color-blue);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   font-weight: 600;
   font-size: 0.8em;
 }
@@ -65,11 +65,11 @@ div.home-description p.home-description-last {
 .nav-btn {
   background-color: var(--color-blue);
   color: #fff;
-  padding: .5em 2.5em;
+  padding: 0.5em 2.5em;
   border: 2px solid var(--color-blue);
   border-radius: 30px;
   font-weight: 600;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .nav-btn:hover {
@@ -80,6 +80,21 @@ div.home-description p.home-description-last {
 
 .logo {
   width: 180px;
+}
+
+.hcp-banner {
+  background-color: #5d8fa8;
+  padding: 36px 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-style: italic;
+  font-family: var(--font-primary);
+}
+
+.hcp-banner .container {
+  max-width: 800px;
+  margin: auto;
 }
 
 /*------------Banner-------------*/
@@ -121,13 +136,13 @@ div.home-description p.home-description-last {
 
 /* Home Sections */
 section.home-panels .island {
-  height:  auto;
+  height: auto;
   min-height: 17.75em;
   border: 10px solid #fff;
 }
 
 .home-page-sections {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .home-panels h2 {
@@ -144,10 +159,11 @@ section.home-panels .island {
   background: url(../images/hero-banner-test.jpg);
   background-size: cover;
   background-position: center right;
-  margin-bottom: 3em; 
+  margin-bottom: 3em;
 }
 
-.small-banner h1, .small-banner p {
+.small-banner h1,
+.small-banner p {
   color: #fff;
 }
 
@@ -168,12 +184,14 @@ section.home-panels .island {
 /* Get In Touch */
 
 .get-in-touch-section {
-  background: linear-gradient(rgba(53, 60, 81, .85), rgba(53, 60, 81, .85)), url("../images/get-in-touch.jpg");
+  background: linear-gradient(rgba(53, 60, 81, 0.85), rgba(53, 60, 81, 0.85)),
+    url("../images/get-in-touch.jpg");
   background-size: cover;
   background-position: center right;
 }
 
-.get-in-touch-section h2, .get-in-touch-section p {
+.get-in-touch-section h2,
+.get-in-touch-section p {
   color: #fff;
 }
 
@@ -194,12 +212,12 @@ footer h3 {
 footer a {
   color: var(--color-medium-blue);
   font-weight: 300;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 footer a:hover {
   /*color: var(--color-dark-gray);*/
-  color: #D8E5FE;
+  color: #d8e5fe;
 }
 
 .nav-footer {
@@ -235,7 +253,7 @@ footer a:hover {
 }
 
 .professionals-background {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 /* About Page */
@@ -245,7 +263,7 @@ footer a:hover {
 }
 
 .mission-value {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .whats-new-card p {
@@ -254,11 +272,11 @@ footer a:hover {
 
 .whats-new-card h3 {
   color: var(--color-dark-gray);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .card-shadow:hover .whats-new-card h3 {
-  color: var(--color-blue)
+  color: var(--color-blue);
 }
 
 .card-shadow:hover {
@@ -312,7 +330,7 @@ footer a:hover {
 }
 
 #about-news {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .news-card {
@@ -322,12 +340,11 @@ footer a:hover {
 /* Contact */
 
 .investors-section {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 @media only screen and (min-width: 38em) {
-
   .nav-footer {
     text-align: left;
   }
- }
+}
