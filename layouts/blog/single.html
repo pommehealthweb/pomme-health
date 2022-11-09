@@ -1,7 +1,9 @@
 {{ define "main" }}
 
-<section class="small-banner"
-  style="background: linear-gradient(to right, rgba(103, 142, 165, .75) , rgba(103, 142, 165, .75)), url({{ .Site.Data.blog.banner.image }}); background-size: cover; background-position: center center;">
+<section
+  class="small-banner"
+  style="background: linear-gradient(to right, rgba(103, 142, 165, .75) , rgba(103, 142, 165, .75)), url({{ .Site.Data.blog.banner.image }}); background-size: cover; background-position: center center;"
+>
   <div class="small-banner-container wrapper grid island">
     <div class="unit xs-1 s-1 m-1 l-1-2">
       <h1 class="yotta push-0">{{ .Site.Data.blog.banner.text }}</h1>
@@ -11,11 +13,11 @@
 
 <section class="max-length blog-section">
   <div class="island">
-    <div  class="island-1-2">
+    <div class="island-1-2">
       <h4 class="push-0 margin-bottom">{{ .Title }}</h4>
       <p class="push-0">{{ .Content }}</p>
     </div>
   </div>
 </section>
 
-{{ end }} 
+{{ end }}
