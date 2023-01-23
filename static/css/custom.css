@@ -140,11 +140,15 @@ main.login > section {
   top: 15px;
   left: 15px;
   color: #353c51;
-  font-weight: normal;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .return-login a:hover {
-  text-decoration: underline;
+  color: #50a193 !important;
+  font-size: 16.45px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 main.login > section.login {
