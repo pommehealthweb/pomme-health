@@ -28,7 +28,7 @@ $(document).ready(function () {
   $("a#contact-popup").magnificPopup({
     items: {
       src: `<section class="wrapper push-2 contact-form">
-                  <button type="button" style="float: right; color: red; font-weight: bold" id="close-btn">X</button>
+                  <a href="#" class="closeButton" id="close-btn">X</a>
                   <div class="grid pop-up-padding">
                     <div class="unit s-1 m-1-3">
                       <a class="logo logo-contact" href="/"><img class="img-flex logo" src="/images/pomme-logo.png" alt="POMMe-Health coloured logo"></a>
