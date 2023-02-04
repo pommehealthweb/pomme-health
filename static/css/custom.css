@@ -831,6 +831,10 @@ form.request-form {
   min-width: inherit;
 }
 
+.my-2 {
+  margin: 4.5em 0px !important;
+}
+
 .media-body li {
   font-size: 0.8em;
 }
