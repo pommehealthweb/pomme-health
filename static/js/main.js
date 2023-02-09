@@ -44,12 +44,17 @@ $(document).ready(function () {
                       </a></p>
                     </div>
                     <div class="unit s-1 m-2-3">
-                      <form action="https://formspree.io/f/moqbywaw" method="POST" id="contact-popup" class="wrapper request-form white-popup">
+                      <form
+                        action="https://formspree.io/f/mjvldwov"
+                        method="POST"
+                        id="contact-popup" class="wrapper request-form white-popup"
+                      >
                         <h4 class="text-center">Request a Demo</h4>
                         <input type="text" class="form-spacing" id="fullName" name="fullName" required placeholder="Full Name">
-                        <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail">
+                        <input type="email" name="email" placeholder="Email">
                         <input type="text" class="form-spacing" id="subject" name="subject" placeholder="Subject">
-                        <textarea id="message" class="form-spacing"  name="message" rows="3" required placeholder="Message"></textarea>
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <!-- your other form fields go here -->
                         <button type="submit" class="nav-btn center">Send</button>
                       </form>
                     </div>

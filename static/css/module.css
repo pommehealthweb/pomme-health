@@ -97,6 +97,10 @@ svg.img-flex {
   height: 100%;
 }
 
+.text-primary {
+  color: #50a193 !important;
+}
+
 .image-replacement, .ir {
   overflow: hidden;
   direction: ltr;
