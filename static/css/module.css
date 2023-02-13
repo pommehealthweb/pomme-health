@@ -98,7 +98,19 @@ svg.img-flex {
 }
 
 .text-primary {
-  color: #50a193 !important;
+  color: #5d8fa8 !important;
+}
+
+.primary-text {
+  color: #5d9fa8 !important;
+}
+
+.asterik {
+  color: #8e0039;
+  font-weight: bold;
+  font-size: 28px;
+  vertical-align: middle;
+  margin-right: 7px;
 }
 
 .image-replacement, .ir {
