@@ -20,14 +20,18 @@ history:
 
 
     POMMe-Health, Inc is headquartered in Ottawa, Ontario.
+vision:
+  visionHeader: Vision
+  visionText: >-
+    To become the best collaborative care platform to provide equitable and transparent healthcare for all.  
 mission:
-  missionHeader: Vision & Mission Statements
-  missionText: >-
-    POMMe-Health’s Vision: One common language for health care providers;
-    starting now and forever.                                                
-    POMMe-Health's Mission: To become the best care management platform for
-    truly collaborative health care. To allow patients to enhance their
-    functionality and live their best quality of life.  
+  missionHeader: Mission Statements
+  missionText1: >-
+    To eliminate gaps in healthcare by tracking functional outcomes.
+  missionText2: >-
+    To empower teams to communicate in context, with clarity and confidence.
+  missionText3: >-
+    To use data analytics to make better care decisions.  
 leadership:
   - leaderText: >-
       Cheryl is a Family Physician with over 24 years in the Canadian Armed

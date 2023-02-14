@@ -94,6 +94,10 @@ thead th {
   text-align: center;
 }
 
+.mt-3 {
+  margin-top: 1.8em !important;
+}
+
 .normal {
   font-weight: normal;
   font-style: normal;
