@@ -113,6 +113,12 @@ svg.img-flex {
   margin-right: 7px;
 }
 
+.flex-align {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
 .image-replacement, .ir {
   overflow: hidden;
   direction: ltr;
