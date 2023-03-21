@@ -69,6 +69,11 @@ homeSections:
     sectionButton: Learn More
 getInTouch:
   button: Send
-  text: Enter your email to get in touch with us.
+  text: |-
+    Would you like to be a 
+    part of cutting-edge 
+    innovation?
+  textPilot: |-
+    Would you like to share your ideas?
   title: We are starting Pilot Projects!
   titlePilot: Join our Focus Groups!

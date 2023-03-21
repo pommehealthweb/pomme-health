@@ -28,14 +28,13 @@ $(document).ready(function () {
   $("a#contact-popup").magnificPopup({
     items: {
       src: `<section class="wrapper push-2 contact-form">
-                  <a href="#" class="closeButton" id="close-btn">X</a>
+                  <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
                   <div class="grid pop-up-padding">
                     <div class="unit s-1 m-1-3">
                       <a class="logo logo-contact" href="/"><img class="img-flex logo" src="/images/pomme-logo.png" alt="POMMe-Health coloured logo"></a>
-                      <p>POMMe-Health delivers a customizable,<br>
-                      patient-centric, interdisciplinary<br>
-                      communication platform that<br>
-                      eliminates gaps in healthcare</p>
+                      <p>POMMe-Health delivers a <br> communication
+                      platform that<br>
+                      eliminates gaps in healthcare.</p>
                       <h3 class="request-demo">Request a Demo Today!</h3>
                       <p class="email-us">Email us:</p>
                       <a class="email-us" href="mailto:info@pomme-health.com">info@pomme-health.com</a>
@@ -72,15 +71,14 @@ $(document).ready(function () {
   $("a#pilot-popup").magnificPopup({
     items: {
       src: `<section class="wrapper push-2 contact-form">
-                  <a href="#" class="closeButton" id="close-btn">X</a>
+                  <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
                   <div class="grid pop-up-padding">
                     <div class="unit s-1 m-1-3">
                       <a class="logo logo-contact" href="/"><img class="img-flex logo" src="/images/pomme-logo.png" alt="POMMe-Health coloured logo"></a>
-                      <p>POMMe-Health delivers a customizable,<br>
-                      patient-centric, interdisciplinary<br>
+                      <p>POMMe-Health delivers a<br>
                       communication platform that<br>
-                      eliminates gaps in healthcare</p>
-                      <h3 class="request-demo">Request a Pilot Today!</h3>
+                      eliminates gaps in healthcare.</p>
+                      <h3 class="request-demo">Start a Pilot Project Today!</h3>
                       <p class="email-us">Email us:</p>
                       <a class="email-us" href="mailto:info@pomme-health.com">info@pomme-health.com</a>
                       <p class="linked-in-contact"><a target="_blank" href="https://www.linkedin.com/company/pomme-health/">
@@ -89,10 +87,10 @@ $(document).ready(function () {
                     </div>
                     <div class="unit s-1 m-2-3">
                       <form action="https://formsubmit.co/pilot@pomme-health.com" method="POST" id="contact-popup" class="wrapper request-form white-popup">
-                        <h4 class="text-center">Request a Demo</h4>
+                        <h4 class="text-center">Start a Pilot Project</h4>
                         <input type="text" class="form-spacing" id="fullName" name="name" required placeholder="Full Name">
                         <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail">
-                        <input type="text" class="form-spacing" id="subject" name="subject" placeholder="Subject">
+                        <input type="text" class="form-spacing" id="subject" name="subject" value="Start a Pilot Project" placeholder="Start a Pilot Project" disabled>
                         <textarea id="message" class="form-spacing" name="message" rows="3" required placeholder="Message"></textarea>
                         <button type="submit" class="nav-btn center">Send</button>
                       </form>
@@ -115,34 +113,34 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("a#focus-popup").magnificPopup({
     items: {
-      src: `<section class="wrapper push-2 contact-form">
-                  <a href="#" class="closeButton" id="close-btn">X</a>
-                  <div class="grid pop-up-padding">
-                    <div class="unit s-1 m-1-3">
-                      <a class="logo logo-contact" href="/"><img class="img-flex logo" src="/images/pomme-logo.png" alt="POMMe-Health coloured logo"></a>
-                      <p>POMMe-Health delivers a customizable,<br>
-                      patient-centric, interdisciplinary<br>
-                      communication platform that<br>
-                      eliminates gaps in healthcare</p>
-                      <h3 class="request-demo">Request a Focus Today!</h3>
-                      <p class="email-us">Email us:</p>
-                      <a class="email-us" href="mailto:info@pomme-health.com">info@pomme-health.com</a>
-                      <p class="linked-in-contact"><a target="_blank" href="https://www.linkedin.com/company/pomme-health/">
-                        <i class="icon i-32"><img src="/images/linkedin.svg"></i>
-                      </a></p>
-                    </div>
-                    <div class="unit s-1 m-2-3">
-                      <form action="https://formsubmit.co/focus@pomme-health.com" method="POST" id="contact-popup" class="wrapper request-form white-popup">
-                        <h4 class="text-center">Request a Demo</h4>
-                        <input type="text" class="form-spacing" id="fullName" name="name" required placeholder="Full Name">
-                        <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail">
-                        <input type="text" class="form-spacing" id="subject" name="subject" placeholder="Subject">
-                        <textarea id="message" class="form-spacing" name="message" rows="3" required placeholder="Message"></textarea>
-                        <button type="submit" class="nav-btn center">Send</button>
-                      </form>
-                    </div>
-                  </div>
-                </section>`,
+      src: 
+        `<section class="wrapper push-2 contact-form">
+          <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
+          <div class="grid pop-up-padding">
+            <div class="unit s-1 m-1-3">
+              <a class="logo logo-contact" href="/"><img class="img-flex logo" src="/images/pomme-logo.png" alt="POMMe-Health coloured logo"></a>
+              <p>POMMe-Health delivers a<br>
+              communication platform that<br>
+              eliminates gaps in healthcare.</p>
+              <h3 class="request-demo">Join a Focus Group Today!</h3>
+              <p class="email-us">Email us:</p>
+              <a class="email-us" href="mailto:info@pomme-health.com">info@pomme-health.com</a>
+              <p class="linked-in-contact"><a target="_blank" href="https://www.linkedin.com/company/pomme-health/">
+                <i class="icon i-32"><img src="/images/linkedin.svg"></i>
+              </a></p>
+            </div>
+            <div class="unit s-1 m-2-3">
+              <form action="https://formsubmit.co/focus@pomme-health.com" method="POST" id="contact-popup" class="wrapper request-form white-popup">
+                <h4 class="text-center">Join a Focus Group</h4>
+                <input type="text" class="form-spacing" id="fullName" name="name" required placeholder="Full Name">
+                <input type="email" class="form-spacing" id="email" name="email" required placeholder="E-mail">
+                <input type="text" class="form-spacing" id="subject" name="subject" value="Start a Pilot Project" placeholder="Join a Focus Group" disabled>
+                <textarea id="message" class="form-spacing" name="message" rows="3" required placeholder="Message"></textarea>
+                <button type="submit" class="nav-btn center">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>`,
       type: "inline",
     },
     callbacks: {
