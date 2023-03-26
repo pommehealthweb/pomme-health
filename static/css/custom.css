@@ -734,6 +734,10 @@ textarea {
   margin: 15px 0;
 }
 
+.f-18 {
+  font-size: 18px !important;
+}
+
 .request-form {
   margin-bottom: 2em;
 }

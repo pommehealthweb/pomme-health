@@ -15,6 +15,18 @@
   flex-flow: row wrap;
 }
 
+.justify-even {
+  justify-content: space-evenly !important;
+}
+
+.mt-4 {
+  margin-top: 3em !important;
+}
+
+.pt-1 {
+  padding-top: 1em !important;
+}
+
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
