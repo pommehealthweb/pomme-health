@@ -856,6 +856,10 @@ input.push.text-left.email-address {
   border-radius: 18px;
 }
 
+.min-image {
+  width: 490px !important;
+}
+
 /* Footer */
 
 footer {
@@ -1088,6 +1092,27 @@ footer.nav-footer div.grid {
   .justify-content-center {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .d-md-visible {
+    display: block !important;
+  }
+  .d-md-none {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .min-image {
+    width: 85% !important;
+  }
+  .d-none {
+    display: none !important;
+  }
+  .d-visible {
+    display: block !important;
   }
 }
 
