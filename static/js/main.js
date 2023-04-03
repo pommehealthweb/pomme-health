@@ -28,7 +28,7 @@ $(document).ready(function () {
   $("a#contact-popup").magnificPopup({
     items: {
       src: `<section class="wrapper push-2 contact-form">
-                  <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
+                  <a href="#" class="closeButton " id="close-btn"><i class="fa fa-times d-none" aria-hidden="true"></i></a>
                   <div class="grid pop-up-padding justify-even">
                     <div class="unit s-1 m-1-3 pt-1">
                       <div class="text-center">
@@ -78,7 +78,7 @@ $(document).ready(function () {
   $("a#pilot-popup").magnificPopup({
     items: {
       src: `<section class="wrapper push-2 contact-form">
-              <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
+              <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times d-none" aria-hidden="true"></i></a>
               <div class="grid pop-up-padding justify-even">
                 <div class="unit s-1 m-1-3 pt-1">
                   <div class="text-center">
@@ -128,7 +128,7 @@ $(document).ready(function () {
   $("a#focus-popup").magnificPopup({
     items: {
       src: `<section class="wrapper push-2 contact-form">
-              <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
+              <a href="#" class="closeButton" id="close-btn"><i class="fa fa-times d-none" aria-hidden="true"></i></a>
               <div class="grid pop-up-padding justify-even">
                 <div class="unit s-1 m-1-3 pt-1">
                   <div class="text-center">
