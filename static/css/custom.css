@@ -331,6 +331,7 @@ section.home-cards {
 
 .ib {
   display: inline-block;
+  margin: 3px 0px !important;
 }
 
 p.intro {
@@ -393,8 +394,9 @@ header.navigation-header {
 }
 
 .hamburger {
-  position: absolute;
-  right: 10px;
+  position: relative !important;
+  /* right: 10px; */
+  text-align: center;
 }
 
 .wrapper-nav {
@@ -459,7 +461,7 @@ a.sign-in {
 }
 
 .hamburger {
-  width: 50%;
+  /* width: 50%; */
   margin-left: auto;
 }
 
