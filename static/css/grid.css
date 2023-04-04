@@ -299,6 +299,15 @@
     margin-top: 15px;
   }
 
+  .d-xs-flex {
+    display: flex !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+  }
+
   .unit-s-1,
   .s-1 {
     display: block;
