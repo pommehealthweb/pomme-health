@@ -278,6 +278,17 @@
   .mt-xs-3 {
     margin-top: 15px;
   }
+  .d-xs-flex {
+    display: flex !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+  }
+  .unit-s-1, .mt-xs-3 {
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (min-width: 25em) {
@@ -289,23 +300,6 @@
 
   .unit-s-centered {
     margin: 0 auto;
-  }
-
-  .unit-s-1, .mt-xs-3 {
-    margin-top: 40px;
-  }
-
-  .mt-xs-2 {
-    margin-top: 15px;
-  }
-
-  .d-xs-flex {
-    display: flex !important;
-    width: 100% !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: 30px !important;
   }
 
   .unit-s-1,
