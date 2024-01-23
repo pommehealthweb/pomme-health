@@ -70,9 +70,7 @@ homeSections:
 getInTouch:
   button: Send
   text: |-
-    Would you like to be a 
-    part of cutting-edge 
-    innovation?
+    Would you like to deliver healthcare more efficiently?
   textPilot: |-
     Would you like to share your ideas?
   title: We are starting Pilot Projects!
