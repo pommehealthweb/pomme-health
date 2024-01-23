@@ -100,7 +100,7 @@ $(document).ready(function () {
                   </div>
                 </div>
                 <div class="unit s-1 m-2-3">
-                  <form action="https://formsubmit.co/demo@pomme-health.com" method="POST" id="contact-popup" class="wrapper request-form white-popup">
+                  <form action="https://formsubmit.co/pilot@pomme-health.com" method="POST" id="contact-popup" class="wrapper request-form white-popup">
                     <h3 class="request-demo">Start a Pilot Project Today!</h3>
                     <input type="text" class="form-spacing f-18" id="fullName" name="name" required placeholder="Full Name">
                     <input type="email" class="form-spacing f-18" id="email" name="email" required placeholder="Email">
