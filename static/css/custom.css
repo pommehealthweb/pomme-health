@@ -1131,7 +1131,7 @@ footer.nav-footer div.grid {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 960px) {
    .line {
     height: 4px;
     width: 100%;
