@@ -7,12 +7,14 @@
 
 <section id=mission-values class="pad-b-2 pad-t-2 mission-section">
   <div class="max-length text-center" style="max-width: 56vw;">
-    <h2 class="push-1-4 m-v-h3">Vision</h2>
-    <p class="push-0 text-center">To become the best collaborative care platform to provide equitable and transparent healthcare for all.</p>
-     <h2 class="push-1-4 m-v-h3">Mission Statements</h2>
-    <p class="push-0 text-center">To eliminate gaps in healthcare by tracking functional outcomes.</p>
-    <p class="push-0 text-center">To empower teams to communicate in context, with clarity and confidence./p>
-    <p class="push-0 text-center">To use data analytics to make better care decisions.</p>
+    <h2 class="push-1-4 m-v-h3">{{ .Site.Data.company.vision.visionHeader }}</h2>
+    <p class="push-0 text-center">{{ .Site.Data.company.vision.visionText }}</p>
+  </div>
+  <div class="max-length text-center mt-3">
+    <h2 class="push-1-4 m-v-h3">{{ .Site.Data.company.mission.missionHeader }}</h2>
+    <p class="push-0 text-center">{{ .Site.Data.company.mission.missionText1 }}</p>
+    <p class="push-0 text-center">{{ .Site.Data.company.mission.missionText2 }}</p>
+    <p class="push-0 text-center">{{ .Site.Data.company.mission.missionText3 }}</p>
   </div>
 </section>
 
