@@ -429,6 +429,8 @@ a.book-demo {
   border: none;
 }
 
+.sign-in {background-color: transparent!important;}
+
 a.sign-in {
   color: #fff;
   background-color: #5d8fa8;
