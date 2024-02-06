@@ -1211,4 +1211,5 @@ footer.nav-footer div.grid {
 
 .footer .micro:hover {color: #fff!important; letter-spacing: 1px; transition: all .3s cubic-bezier(.25, .8, .25, 1); font-weight: bold;}
 
-.ftlnk a {color: #fff!important; font-weight: bold;}
+.ftlnk a {color: #fff!important; font-weight: bold!important;}
+.ftlnk  {color: #fff!important; font-weight: bold!important;}
