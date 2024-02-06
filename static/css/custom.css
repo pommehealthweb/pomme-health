@@ -1163,3 +1163,23 @@ footer.nav-footer div.grid {
 
 .main-btn {padding: 6px 24px; background-color: #353C51!important; transition: all .8s cubic-bezier(.25, .8, .25, 1);}
 .main-btn:hover {padding: 6px 24px; background-color: #D8E5FE!important; transition: all .8s cubic-bezier(.25, .8, .25, 1); color: #353d50!important;}
+
+.home-btn {
+    font-size: 14px !important;
+    width: 12em;
+    padding: 8px 25px;
+    background-color:#D8E5FE!important; 
+    border: none;
+    display: inline-block;
+    margin: 0;
+    overflow: visible;
+    border-radius: 40px;
+    color: #000;
+    font: inherit;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.home-btn:hover {background-color: #353C51!important; color: #fff!important;}
