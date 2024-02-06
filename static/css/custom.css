@@ -1154,4 +1154,5 @@ footer.nav-footer div.grid {
 }
 }
 
-.sign-in {background-color: transparent!important; color: #353d50!important;}
+.sign-in {background-color: transparent!important; color: #353d50!important;     font-size: .7901rem;
+    line-height: 1.25rem; padding: 5px 4px;}
