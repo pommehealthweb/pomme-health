@@ -1155,6 +1155,8 @@ footer.nav-footer div.grid {
 }
 
 .sign-in {background-color: transparent!important; color: #353d50!important;     font-size: .7901rem;
-    line-height: 1.25rem; padding: 5px 4px; font-weight: 500; margin-right: 20px;}
+    line-height: 1.25rem; padding: 5px 4px; font-weight: 500; margin-right: 20px; transition: all .8s cubic-bezier(.25, .8, .25, 1);}
+
+.sign-in:hover {color: #54a193!important; transition: all .8s cubic-bezier(.25, .8, .25, 1);}
 
 .icon-user {max-width: 20px; display: inline-block; margin-bottom: -5px!important;}
