@@ -1203,8 +1203,8 @@ footer.nav-footer div.grid {
     transition: all 0.3s ease;
     text-align: center;
   font-weight: bold!important;
-  transition: all .8s cubic-bezier(.25, .8, .25, 1);
+  transition: all .3s cubic-bezier(.25, .8, .25, 1);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.pilotP:hover {transition: all .8s cubic-bezier(.25, .8, .25, 1); background-color: #353d50!important;color: #fff!important; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.pilotP:hover {transition: all .3s cubic-bezier(.25, .8, .25, 1); background-color: #353d50!important;color: #fff!important; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
