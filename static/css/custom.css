@@ -1198,10 +1198,11 @@ footer.nav-footer div.grid {
     overflow: visible;
     border-radius: 40px;
     color: #353d50!important;
-    font: inherit;
     text-decoration: none;
     text-transform: none;
     transition: all 0.3s ease;
     text-align: center;
+  font-weight: 500;
+  
   box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
 }
