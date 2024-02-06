@@ -1209,4 +1209,4 @@ footer.nav-footer div.grid {
 
 .pilotP:hover {transition: all .3s cubic-bezier(.25, .8, .25, 1); background-color: #353d50!important;color: #fff!important; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 
-.footer a:hover {color: #fff!important; letter-spacing: 1px; transition: all .3s cubic-bezier(.25, .8, .25, 1);}
+.footer a:hover {color: #fff!important; letter-spacing: 1px; transition: all .3s cubic-bezier(.25, .8, .25, 1); font-weight: bold;}
