@@ -1214,3 +1214,7 @@ footer.nav-footer div.grid {
 
 .ftlnk  {color: #fff!important;  transition: all .3s cubic-bezier(.25, .8, .25, 1);}
 .ftlnk:hover  {color: #fff!important; font-weight: 500!important; padding-left: 2px!important; transition: all .3s cubic-bezier(.25, .8, .25, 1);}
+
+.nav li a.micro {
+    padding: 5px 10px;
+}
