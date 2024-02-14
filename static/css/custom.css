@@ -1218,3 +1218,8 @@ footer.nav-footer div.grid {
 .nav li a.micro {
     padding: 5px 15px;
 }
+
+.nav li a.micro:hover {
+  background-color: #353c51!important; color: #fff;
+    padding: 5px 15px;
+}
