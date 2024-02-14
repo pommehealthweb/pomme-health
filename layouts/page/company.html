@@ -18,9 +18,9 @@
   </div>
 </section>
 
-<section id="history" class="pad-t-2 pad-b-2 max-length gutter">
+<section id="leadership" class="pad-t-2 pad-b-2 max-length gutter">
   <h2 class="margin-bottom">History</h2>
-  {{ .Site.Data.company.history.text | markdownify }}
+  {{ range .Site.Data.company.leadership }}
 </section>
 
 <section id="leadership" class="pad-b-2 pad-t-2">
