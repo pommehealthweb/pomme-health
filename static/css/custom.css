@@ -1249,8 +1249,8 @@ footer.nav-footer div.grid {
 
 .focusp:hover {transition: all .3s cubic-bezier(.25, .8, .25, 1); background-color: #353d50!important;color: #fff!important; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 
-.ftrlogo {max-width: 320px;}
-.ftrsoc {max-width: 50px;}
+.ftrlogo {max-width: 280px;}
+.ftrsoc {max-width: 36px;}
 
 @media only screen and (max-width: 767px) {
     .dskonly { display: none !important; }
