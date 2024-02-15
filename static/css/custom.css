@@ -1263,24 +1263,4 @@ footer.nav-footer div.grid {
 }
 
 
-.columnx4 {
-  float: left;
-  width: 25%;
-}
 
-/* Clear floats after the columns */
-
-.row {margin: 0px 10%;}
-.rowx4:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .columnx4 {
-    width: 100%;
-  }
-}
-
-.4xfooter {margin: 0px 10%;}
