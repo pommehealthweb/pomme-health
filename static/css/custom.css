@@ -1252,3 +1252,7 @@ footer.nav-footer div.grid {
 @media only screen and (max-width: 767px) {
     .dskonly { display: none !important; }
 }
+
+@media screen and (min-width: 800px) {
+ .mobonly { display: none !important; }
+}
