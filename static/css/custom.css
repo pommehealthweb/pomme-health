@@ -1269,7 +1269,9 @@ footer.nav-footer div.grid {
 }
 
 /* Clear floats after the columns */
-.row:after {
+
+.row {margin: 0px 10%;}
+.rowx4:after {
   content: "";
   display: table;
   clear: both;
