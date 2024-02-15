@@ -1261,3 +1261,22 @@ footer.nav-footer div.grid {
 @media screen and (min-width: 800px) {
  .mobonly { display: none !important; }
 }
+
+
+.columnx4 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .columnx4 {
+    width: 100%;
+  }
+}
