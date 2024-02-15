@@ -1262,15 +1262,9 @@ footer.nav-footer div.grid {
  .mobonly { display: none !important; }
 }
 
-.columnx3 {
+.columnx4 {
   float: left;
-  width: 33.33%;
-}
-
-.columnx3b {
-  margin-left: -80px;
-  float: left;
-  width: 33.33%;
+  width: 25%;
 }
 
 /* Clear floats after the columns */
@@ -1279,4 +1273,3 @@ footer.nav-footer div.grid {
   display: table;
   clear: both;
 }
-
