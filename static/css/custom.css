@@ -1282,6 +1282,19 @@ footer.nav-footer div.grid {
   clear: both;
 }
 
+.columnx4b {
+  float: left;
+  width: 25%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 footer.nav-footer div.grid {
