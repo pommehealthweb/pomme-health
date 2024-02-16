@@ -1290,3 +1290,7 @@ footer.nav-footer div.grid {
     width: 100%;
   }
 }
+
+.pad-t-2 {
+    padding-top: -40px!important;
+}
