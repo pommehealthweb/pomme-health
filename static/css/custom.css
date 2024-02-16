@@ -1251,7 +1251,7 @@ footer.nav-footer div.grid {
 
 .ftrlogo {max-width: 220px;}
 .ftrsoc {max-width: 36px;}
-.ftrlogomob {float: center!important; max-width: 180px!important;}
+.ftrlogomob {float: center!important; max-width: 180px!important; margin-left: 25%;}
 
 .moblog {max-width: 180px!important;}
 .mobsoc  {max-width: 36px!important;}
