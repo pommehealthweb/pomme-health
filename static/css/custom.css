@@ -1268,6 +1268,7 @@ footer.nav-footer div.grid {
 .columnx4 {
   float: left;
   width: 25%;
+  margin-top: -80px;
 }
 
 /* Clear floats after the columns */
@@ -1291,6 +1292,4 @@ footer.nav-footer div.grid {
   }
 }
 
-footer.nav-footer div.grid {
-  max-height: 500px!important;
-}
+
