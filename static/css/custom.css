@@ -1252,6 +1252,9 @@ footer.nav-footer div.grid {
 .ftrlogo {max-width: 180px;}
 .ftrsoc {max-width: 36px;}
 
+.moblog {max-width: 180px;}
+.mobsoc  {max-width: 36px;}
+
 @media only screen and (max-width: 767px) {
     .dskonly { display: none !important; }
   .nav li a.micro {
