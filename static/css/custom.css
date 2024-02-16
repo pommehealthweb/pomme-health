@@ -1291,6 +1291,6 @@ footer.nav-footer div.grid {
   }
 }
 
-.pad-t-2 {
-    padding-top: -40px!important;
+footer.nav-footer div.grid {
+  max-height: 500px!important;
 }
