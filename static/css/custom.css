@@ -1268,7 +1268,8 @@ footer.nav-footer div.grid {
 .columnx4 {
   float: left;
   width: 25%;
-  margin-top: -80px;
+  margin-top: -50px;
+  padding-bottom: 50px;
 }
 
 /* Clear floats after the columns */
