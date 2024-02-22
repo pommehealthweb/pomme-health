@@ -1321,13 +1321,13 @@ footer.nav-footer div.grid {
 .fctimg {max-width: 140px; display: inline-block;}
 
 .arrow {
-  width: 120px;
+  width: ;
 }
 
 .line {
   margin-top: 14px;
-  width: 90px;
-  background: blue;
+  width: 80%;
+  background: #d2d2d2;
   height: 10px;
   float: left;
 }
