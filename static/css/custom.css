@@ -1321,7 +1321,7 @@ footer.nav-footer div.grid {
 .fctimg {max-width: 140px; display: inline-block;}
 
 .arrow {
-  width: 60px;
+  width: 160px;
 }
 
 .line {
@@ -1337,6 +1337,6 @@ footer.nav-footer div.grid {
   height: 0;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 30px #d2d2d2;
+  border-left: 30px solid blue;
   float: center;
 }
