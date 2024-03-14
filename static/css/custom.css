@@ -1375,11 +1375,9 @@ footer.nav-footer div.grid {
 
 @media only screen and (max-width: 767px) {
 
-.line {
+.menuicon_ {
     margin-top: 14px;
-    width: 30px;
-    background: #d2d2d2;
-    height: 5px;
+    width: 40px;
     float: center;
   margin-left: 20px;
 }
