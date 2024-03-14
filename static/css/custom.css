@@ -1379,8 +1379,9 @@ footer.nav-footer div.grid {
     margin-top: 14px;
     width: 30px;
     background: #d2d2d2;
-    height: 10px;
+    height: 20px;
     float: center;
+  margin-left: 10px;
 }
 
 .main-btn {
