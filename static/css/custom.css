@@ -1291,6 +1291,13 @@ display: none;
 
 .columnx4b {
   float: left;
+  width: 75%;
+  padding: 30px 0px 30px 0px;
+
+}
+
+.columnx4c {
+  float: left;
   width: 25%;
   padding: 30px 0px 30px 0px;
 
