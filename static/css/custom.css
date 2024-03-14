@@ -1374,13 +1374,14 @@ footer.nav-footer div.grid {
   transition: all 0.3s ease-in-out; transform: scale(0.9);}
 
 @media only screen and (max-width: 767px) {
-    .line { display: none!important; }
+
 
 
 .main-btn {
     padding: 6px 24px;
   border: 0px!important;
-    background-color: #353C51!important;
+    background-color: #353D51!important;
+color: #fff!important;
     transition: all .8s cubic-bezier(.25, .8, .25, 1);}
 
 }
