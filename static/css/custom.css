@@ -1212,8 +1212,8 @@ footer.nav-footer div.grid {
 .footer .micro:hover {color: #fff!important; letter-spacing: 1px; transition: all .3s cubic-bezier(.25, .8, .25, 1); font-weight: bold;}
 
 
-.ftlnk  {color: #fff!important;  transition: all .3s cubic-bezier(.25, .8, .25, 1); font-weight: 500!important;}
-.ftlnk:hover  {color: #8E98AF!important; transition: all .3s cubic-bezier(.25, .8, .25, 1);}
+.ftlnk  {color: #fcfcfc!important;  transition: all .3s cubic-bezier(.25, .8, .25, 1); font-weight: 500!important; transition: all .8s cubic-bezier(.25, .8, .25, 1);}
+.ftlnk:hover  {color: #fff!important; transition: all .3s cubic-bezier(.25, .8, .25, 1); letter-spacing: 1px; transition: all .8s cubic-bezier(.25, .8, .25, 1);}
 
 .nav li a.micro {
     padding: 5px 15px; transition: all .8s cubic-bezier(.25, .8, .25, 1); border-radius: 26px!important;
