@@ -196,7 +196,7 @@ nav li a:hover {
   .dropdown:hover .dropdown-content {display: block;}
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1115px) {
   nav li a {
     padding: 0 1.25em;
   }
