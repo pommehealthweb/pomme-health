@@ -1046,7 +1046,7 @@ footer.nav-footer div.grid {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 1115px) {
   nav.menu,
   ul.nav {
     position: static;
