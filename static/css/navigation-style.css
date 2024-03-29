@@ -107,7 +107,7 @@ nav li a:hover {
   display: none;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 1115px) {
 
   .top-nav {
     padding: 1em 0;
