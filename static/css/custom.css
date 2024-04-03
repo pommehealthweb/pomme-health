@@ -1369,8 +1369,8 @@ footer.nav-footer div.grid {
 
 .home-btn-2:hover {background-color: #353C51!important; color: #fff!important;}
 
-.ftr_icons {width: 42px; transition: all 0.3s ease-in-out; margin-top: 30px;}
-.ftr_icons:hover {width: 42px; transition: all 0.3s ease-in-out;   cursor: pointer;
+.ftr_icons {width: 45px; transition: all 0.3s ease-in-out; margin-top: 30px;}
+.ftr_icons:hover {width: 45px; transition: all 0.3s ease-in-out;   cursor: pointer;
   transition: all 0.3s ease-in-out; transform: scale(0.9);}
 
 @media only screen and (max-width: 767px) {
